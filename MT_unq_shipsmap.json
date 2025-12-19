@@ -1,0 +1,4112 @@
+[
+  {
+    "Type": "Material",
+    "Name": "MT_unq_shipsmap",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted | RF_Dynamic",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Wood'",
+        "ObjectPath": "Athena/Content/Materials/Physical/PM_Wood.0"
+      },
+      "BaseColor": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.34"
+        }
+      },
+      "Metallic": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.108"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "Specular": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.45"
+        }
+      },
+      "Roughness": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.31"
+        }
+      },
+      "Normal": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.111"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "EmissiveColor": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.97"
+        }
+      },
+      "AmbientOcclusion": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.95"
+        }
+      },
+      "bUsedWithSkeletalMesh": true,
+      "bAutomaticallySetUsageInEditor": false,
+      "EditorX": 3616,
+      "EditorY": -96,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.34"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.108"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.45"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.31"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.111"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.97"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.95"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_25'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.70"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.39"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.43"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.107"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.89"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.52"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.15"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.53"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.88"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.16"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.20"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.90"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.64"
+        },
+        {
+          "ObjectName": "MaterialExpressionCollectionParameter'MT_unq_shipsmap:MaterialExpressionCollectionParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.9"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.74"
+        },
+        {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.12"
+        },
+        {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.13"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.116"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.109"
+        },
+        {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.27"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.78"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.32"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.119"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.120"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.33"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.79"
+        },
+        {
+          "ObjectName": "MaterialExpressionPower'MT_unq_shipsmap:MaterialExpressionPower_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.86"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.103"
+        },
+        {
+          "ObjectName": "MaterialExpressionVertexColor'MT_unq_shipsmap:MaterialExpressionVertexColor_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.126"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.117"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.75"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.76"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.30"
+        },
+        {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.10"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.37"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.38"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.112"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.104"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.46"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.106"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.19"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.41"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.122"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.92"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.93"
+        },
+        {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.14"
+        },
+        {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.11"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_20'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.65"
+        },
+        {
+          "ObjectName": "MaterialExpressionMax'MT_unq_shipsmap:MaterialExpressionMax_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.51"
+        },
+        {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.81"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_22'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.67"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.123"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.42"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_23'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.68"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_24'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.69"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.94"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.102"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.80"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.54"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.47"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.22"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.23"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.49"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.55"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.87"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.113"
+        },
+        {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.26"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_12'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.56"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.118"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.40"
+        },
+        {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.100"
+        },
+        {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.101"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_21'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.66"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.58"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.114"
+        },
+        {
+          "ObjectName": "MaterialExpressionPanner'MT_unq_shipsmap:MaterialExpressionPanner_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.84"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_15'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.59"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_16'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.60"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionAppendVector'MT_unq_shipsmap:MaterialExpressionAppendVector_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.8"
+        },
+        {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.29"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.105"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_16'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.35"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.124"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.50"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.48"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_18'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.62"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.98"
+        },
+        {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.99"
+        },
+        {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.83"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.115"
+        },
+        {
+          "ObjectName": "MaterialExpressionPanner'MT_unq_shipsmap:MaterialExpressionPanner_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.85"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.7"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_17'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.61"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.18"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.96"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.91"
+        },
+        {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_26'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.71"
+        },
+        {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.82"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_27'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.72"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_17'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.36"
+        },
+        {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.28"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.125"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.44"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.77"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_19'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.63"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_28'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.73"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.57"
+        },
+        {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.25"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstantBiasScale'MT_unq_shipsmap:MaterialExpressionConstantBiasScale_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.24"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.21"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.17"
+        }
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "79A4F0D8-4DFD016B-1B5B2C86-F3DBE3BA",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_specular_intersection_mask'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_specular_intersection_mask.16"
+          }
+        },
+        {
+          "StateId": "A92FAEBA-4FBE23C5-96E878A2-0C46DFFF",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_GridLines'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_GridLines.34"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+          }
+        },
+        {
+          "StateId": "7560E2DA-4356343C-18E6818A-A015BAC5",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat2'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+          }
+        },
+        {
+          "StateId": "B2F4A5A7-4EDE33D8-E70A4A83-A28D1503",
+          "Function": {
+            "ObjectName": "MaterialFunction'ScaleUVsByCenter'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.16"
+          }
+        },
+        {
+          "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.5"
+          }
+        }
+      ],
+      "MaterialParameterCollectionInfos": [
+        {
+          "StateId": "1BB86A0A-48D74886-80A3D490-660FD35C",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'MP_atmospheric_parameters'",
+            "ObjectPath": "Athena/Content/Materials/ParameterCollections/MP_atmospheric_parameters.0"
+          }
+        }
+      ],
+      "bCanMaskedBeAssumedOpaque": true,
+      "StateId": "42E388D2-4A0153C9-0AC3FB89-213BDE2F"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.91"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.113"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.114"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "ConstB": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_13",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.83"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.49"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_14",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.3"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.80"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.80"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.49"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.55"
+        }
+      },
+      "ConstB": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAdd",
+    "Name": "MaterialExpressionAdd_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAdd'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstantBiasScale'MT_unq_shipsmap:MaterialExpressionConstantBiasScale_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.24"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionAppendVector",
+    "Name": "MaterialExpressionAppendVector_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionAppendVector'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+        },
+        "OutputIndex": 3,
+        "Mask": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+        },
+        "OutputIndex": 4,
+        "Mask": 1,
+        "MaskA": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCollectionParameter",
+    "Name": "MaterialExpressionCollectionParameter_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionCollectionParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Collection": {
+        "ObjectName": "MaterialParameterCollection'MP_atmospheric_parameters'",
+        "ObjectPath": "Athena/Content/Materials/ParameterCollections/MP_atmospheric_parameters.0"
+      },
+      "ParameterName": "LightsEmissiveScale",
+      "ParameterId": "AD0320A8-4A5EDB8E-24A563A4-6CF64DC1",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionComponentMask",
+    "Name": "MaterialExpressionComponentMask_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionComponentMask'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.27"
+        }
+      },
+      "G": true,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionComponentMask",
+    "Name": "MaterialExpressionComponentMask_10",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionComponentMask'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.46"
+        }
+      },
+      "G": true,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionComponentMask",
+    "Name": "MaterialExpressionComponentMask_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionComponentMask'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.27"
+        }
+      },
+      "G": true,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionComponentMask",
+    "Name": "MaterialExpressionComponentMask_5",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionComponentMask'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.27"
+        }
+      },
+      "R": true,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionComponentMask",
+    "Name": "MaterialExpressionComponentMask_9",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionComponentMask'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.46"
+        }
+      },
+      "R": true,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_10",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 0.85,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 0.015,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_5",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_7",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 0.25,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_8",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_9",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstantBiasScale",
+    "Name": "MaterialExpressionConstantBiasScale_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionConstantBiasScale'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.115"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Bias": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCustom",
+    "Name": "MaterialExpressionCustom_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionCustom'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Code": "smoothstep(start,end,length(UV-0.5));",
+      "OutputType": "CMOT_Float1",
+      "Description": "{C} Circle Mask",
+      "Inputs": [
+        {
+          "InputName": "UV",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_5'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.48"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "InputName": "start",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_7'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.21"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "InputName": "end",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_10'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.17"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionCustom",
+    "Name": "MaterialExpressionCustom_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionCustom'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Code": "\r\nfloat softedge = smoothstep(0.2, 0.3, InAlpha) * 0.75;\r\nfloat hardedge = smoothstep(0.3, 0.305, InAlpha) * (1.0- smoothstep(0.35, 0.5505, InAlpha)) * 0.25;\r\n\r\nreturn saturate(softedge+hardedge);",
+      "OutputType": "CMOT_Float1",
+      "Description": "{C} MapEdgeSmoothstep",
+      "Inputs": [
+        {
+          "InputName": "InAlpha",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_16'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.60"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionCustom",
+    "Name": "MaterialExpressionCustom_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionCustom'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Code": "float lum = InColour.r;\r\nfloat core = 1.0-smoothstep(0.15, 0.11, lum);\r\nfloat softedge = 1.0-smoothstep(0.22, 0.1, lum);\r\nreturn float2(core, softedge);",
+      "OutputType": "CMOT_Float2",
+      "Description": "{C} Smoothstep",
+      "Inputs": [
+        {
+          "InputName": "InColour",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_8'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.116"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionCustom",
+    "Name": "MaterialExpressionCustom_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionCustom'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Code": "\r\nfloat softedge = smoothstep(0.2, 0.3, InAlpha) *0.75;\r\nfloat hardedge = smoothstep(0.3, 0.305, InAlpha) * (1.0- smoothstep(0.35, 0.75505, InAlpha)) * 0.25;\r\n\r\nreturn saturate(softedge+hardedge);",
+      "OutputType": "CMOT_Float1",
+      "Description": "{C} Combat Bounds Mask",
+      "Inputs": [
+        {
+          "InputName": "InAlpha",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_17'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.61"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionCustom",
+    "Name": "MaterialExpressionCustom_6",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionCustom'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Code": "return saturate(sign(InUV.x * InUV.y * saturate(1.0-InUV.x) * saturate(1.0-InUV.y)));",
+      "OutputType": "CMOT_Float1",
+      "Description": "{C} ClipUV",
+      "Inputs": [
+        {
+          "InputName": "InUV",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_3'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.105"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.76"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.43"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 3,
+        "Mask": 1,
+        "MaskB": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "OutputIndex": 2,
+        "Mask": 1,
+        "MaskG": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.108"
+        },
+        "OutputIndex": 2,
+        "Mask": 1,
+        "MaskG": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.38"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_10",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.119"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.13"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_11",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.120"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.12"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_13",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.107"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_25'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.70"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVertexColor'MT_unq_shipsmap:MaterialExpressionVertexColor_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.126"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "ConstA": 1.0,
+      "ConstAlpha": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_16",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_23'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.68"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_27'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.72"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_17",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.75"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.91"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.10"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.37"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 3,
+        "Mask": 1,
+        "MaskB": 1
+      },
+      "ConstA": 0.9,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.30"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.112"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.112"
+        },
+        "OutputIndex": 4,
+        "Mask": 1,
+        "MaskA": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_5",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.118"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_21'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.66"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_6",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.122"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_24'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.69"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_7",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.123"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_22'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.67"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_8",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.78"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionPower'MT_unq_shipsmap:MaterialExpressionPower_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.86"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_26'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.71"
+        }
+      },
+      "ConstAlpha": 0.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_9",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.125"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_28'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.73"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_specular_intersection_mask'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_specular_intersection_mask.16"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "69FDCA61-405B33EA-6A48E4A4-A9FD43B1",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_2'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.89"
+            },
+            "OutputIndex": 0,
+            "InputName": "Specular",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "31B682E0-4AE61887-AE9DEE93-A1DB6BB4",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_3'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.90"
+            },
+            "OutputIndex": 0,
+            "InputName": "Specular_Base",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "01D2F7D5-41D1B823-A8FEDE9D-C26F2868",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_1'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.31"
+            },
+            "OutputIndex": 0,
+            "InputName": "Roughness",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "66745C1B-4497EEDE-86A45F91-E8FD695F",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_5'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.20"
+            },
+            "OutputIndex": 0,
+            "InputName": "MaskStrength",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "ADAC0C5D-49420444-EA521B94-97935025",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_GridLines'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_GridLines.34"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "9205CFA1-40CB18D1-14ECC1B0-D662AD84",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_9'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.94"
+            },
+            "OutputIndex": 0,
+            "InputName": "GridTiling",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "A6BC6EE5-47001226-E51474B8-323226AA",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_7'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.92"
+            },
+            "OutputIndex": 0,
+            "InputName": "GridMaxX",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "3FD5773C-4588E1FF-8DC732A0-177BEA3E",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_8'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.93"
+            },
+            "OutputIndex": 0,
+            "InputName": "GridMaxY",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "9F39F06D-44DF1789-61D4A094-5F1CC081",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionAppendVector'MT_unq_shipsmap:MaterialExpressionAppendVector_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.8"
+            },
+            "OutputIndex": 0,
+            "InputName": "GridScale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "5A8A54BE-425583B0-16E5819D-9C02605E",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_4'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.106"
+            },
+            "OutputIndex": 0,
+            "InputName": "GridPosition",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "42B260FB-4D30C00C-FC832CB1-4EC76D27",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+            },
+            "OutputIndex": 1,
+            "InputName": "GridOffsetX",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "C74345E4-4A20D8AE-558FCEBD-4A18C8EE",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+            },
+            "OutputIndex": 2,
+            "InputName": "GridOffsetY",
+            "Mask": 1,
+            "MaskR": 0,
+            "MaskG": 1,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "DD837ADC-49C9C34A-0FCCA6B7-1637730F",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_3'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.19"
+            },
+            "OutputIndex": 0,
+            "InputName": "LineWidth",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "2D3879CF-4D45ECA7-FA0E74BC-C9521803",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_8'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.22"
+            },
+            "OutputIndex": 0,
+            "InputName": "X",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_9'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.23"
+            },
+            "OutputIndex": 0,
+            "InputName": "Y",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_5",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'ScaleUVsByCenter'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/ScaleUVsByCenter.16"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "395E1DA5-4D9791A8-DB7094B5-2B0509C3",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_1'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.99"
+            },
+            "OutputIndex": 0,
+            "InputName": "UVs",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "9E726E4E-4FF0FCD6-5D606FB9-CE123842",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_18'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.62"
+            },
+            "OutputIndex": 0,
+            "InputName": "Texture Scale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "94A339B2-48B80583-9CF8F28B-335D4E1D",
+          "Output": {
+            "OutputName": "UVs",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "2DFD3EF3-40552A23-494E8D98-7C76BC0D",
+          "Output": {
+            "OutputName": "0-1 mask",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "UVs",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "0-1 mask",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_6",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+            },
+            "OutputIndex": 1,
+            "InputName": "X",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_12'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.121"
+            },
+            "OutputIndex": 2,
+            "InputName": "Y",
+            "Mask": 1,
+            "MaskR": 0,
+            "MaskG": 1,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_7",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MakeFloat2'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.4"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "529C1D96-441E07EB-03A9E59B-8A7F67B6",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_2'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.124"
+            },
+            "OutputIndex": 1,
+            "InputName": "X",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "B5BD7D1B-494F6928-732CCDA1-C63D8E15",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_2'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.124"
+            },
+            "OutputIndex": 2,
+            "InputName": "Y",
+            "Mask": 1,
+            "MaskR": 0,
+            "MaskG": 1,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "0DD6F995-4C067C3E-5DDBBBA0-D6910DD2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMax",
+    "Name": "MaterialExpressionMax_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMax'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.96"
+        }
+      },
+      "ConstB": 0.75,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.34"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.108"
+        },
+        "OutputIndex": 3,
+        "Mask": 1,
+        "MaskB": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.52"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.74"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_10",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAppendVector'MT_unq_shipsmap:MaterialExpressionAppendVector_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.8"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.47"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_11",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.101"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.87"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_12",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_19'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.63"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_16'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.35"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_13",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.6"
+        }
+      },
+      "ConstB": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_14",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMax'MT_unq_shipsmap:MaterialExpressionMax_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.51"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_15",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.6"
+        }
+      },
+      "ConstB": 0.2,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_16",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.1"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.2"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_17",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.25"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.7"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_18",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.124"
+        },
+        "OutputIndex": 3,
+        "Mask": 1,
+        "MaskB": 1
+      },
+      "ConstB": 2.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_19",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.40"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.44"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.108"
+        },
+        "OutputIndex": 3,
+        "Mask": 1,
+        "MaskB": 1
+      },
+      "ConstB": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_20",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.14"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.96"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_21",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.26"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_22",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.81"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_23",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.42"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.41"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_24",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_20'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.65"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 4,
+        "Mask": 1,
+        "MaskA": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_25",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_12'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.56"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.39"
+        }
+      },
+      "ConstA": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_26",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.82"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.58"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_27",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.29"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionOneMinus'MT_unq_shipsmap:MaterialExpressionOneMinus_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.82"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_28",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.77"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.110"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.88"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCollectionParameter'MT_unq_shipsmap:MaterialExpressionCollectionParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.9"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.117"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.79"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_5",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.117"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.107"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_6",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_unq_shipsmap:MaterialExpressionCustom_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.28"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_unq_shipsmap:MaterialExpressionVectorParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.124"
+        },
+        "OutputIndex": 4,
+        "Mask": 1,
+        "MaskA": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_7",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_17'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.36"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.107"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "ConstB": 0.4,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_8",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_11'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.33"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_unq_shipsmap:MaterialExpressionLinearInterpolate_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.32"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_9",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.102"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAppendVector'MT_unq_shipsmap:MaterialExpressionAppendVector_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.8"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionOneMinus",
+    "Name": "MaterialExpressionOneMinus_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionOneMinus'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_unq_shipsmap:MaterialExpressionStaticSwitchParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.96"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionOneMinus",
+    "Name": "MaterialExpressionOneMinus_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionOneMinus'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_unq_shipsmap:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.91"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionOneMinus",
+    "Name": "MaterialExpressionOneMinus_5",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionOneMinus'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_unq_shipsmap:MaterialExpressionMaterialFunctionCall_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.50"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionPanner",
+    "Name": "MaterialExpressionPanner_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionPanner'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Coordinate": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_15'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.59"
+        }
+      },
+      "SpeedX": 0.002,
+      "SpeedY": 0.003,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionPanner",
+    "Name": "MaterialExpressionPanner_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionPanner'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Coordinate": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.57"
+        }
+      },
+      "SpeedX": 0.001,
+      "SpeedY": 0.002,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionPower",
+    "Name": "MaterialExpressionPower_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionPower'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_unq_shipsmap:MaterialExpressionTextureSampleParameter2D_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.109"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "ConstExponent": 2.2,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 0.9,
+      "ParameterName": "PlayableEdgeRatio",
+      "ExpressionGUID": "B54669C1-4F27C563-B6994A86-5F01DFCB",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Emissive Intensity",
+      "ExpressionGUID": "A8BAC181-45A1F76C-40C5CB9F-4DFC043C",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 0.5,
+      "ParameterName": "Specular",
+      "ExpressionGUID": "F0A9F17B-4D1C8373-7C8173A5-ED51E057",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 0.3,
+      "ParameterName": "Specular_Base",
+      "ExpressionGUID": "54BC7CA0-41BF89F7-FD2945AB-2DFC01D9",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SliderMax": 1.0,
+      "ParameterName": "MapHidden",
+      "ExpressionGUID": "4254BD39-4EA5F858-87207880-E4737D4C",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_7",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 26.0,
+      "ParameterName": "GridMaxX",
+      "ExpressionGUID": "69E4D110-40B9F58D-90D3E985-FA798D71",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_8",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 26.0,
+      "ParameterName": "GridMaxY",
+      "ExpressionGUID": "DAA07B7C-4D16FE86-95A08DA8-3EE632C8",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_9",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 26.0,
+      "ParameterName": "GridTile",
+      "ExpressionGUID": "41A0B92E-468D6B44-236B24BC-EDF0C6D8",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticSwitchParameter",
+    "Name": "MaterialExpressionStaticSwitchParameter_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.64"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.16"
+        }
+      },
+      "ParameterName": "Occlusion",
+      "ExpressionGUID": "E889C6AA-4474EDA4-99089AAD-127740C9",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticSwitchParameter",
+    "Name": "MaterialExpressionStaticSwitchParameter_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.18"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionComponentMask'MT_unq_shipsmap:MaterialExpressionComponentMask_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.11"
+        }
+      },
+      "ParameterName": "UseExpandedMap",
+      "ExpressionGUID": "7C565AB6-48EDB5AD-76FF8297-39A356D4",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticSwitchParameter",
+    "Name": "MaterialExpressionStaticSwitchParameter_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.53"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstant'MT_unq_shipsmap:MaterialExpressionConstant_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.15"
+        }
+      },
+      "ParameterName": "Emissive",
+      "ExpressionGUID": "967EBF7E-404C9BF2-1FFEDBB2-2C01111F",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionSubtract",
+    "Name": "MaterialExpressionSubtract_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionSubtract'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.4"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.54"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionSubtract",
+    "Name": "MaterialExpressionSubtract_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionSubtract'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.98"
+        }
+      },
+      "ConstB": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionSubtract",
+    "Name": "MaterialExpressionSubtract_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionSubtract'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.5"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_unq_shipsmap:MaterialExpressionMultiply_10'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.54"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionSubtract",
+    "Name": "MaterialExpressionSubtract_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionSubtract'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionSubtract'MT_unq_shipsmap:MaterialExpressionSubtract_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.100"
+        }
+      },
+      "ConstB": 0.5,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureCoordinate",
+    "Name": "MaterialExpressionTextureCoordinate_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureCoordinate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CoordinateIndex": 1,
+      "UTiling": 2.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureCoordinate",
+    "Name": "MaterialExpressionTextureCoordinate_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureCoordinate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CoordinateIndex": 1,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureCoordinate",
+    "Name": "MaterialExpressionTextureCoordinate_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureCoordinate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CoordinateIndex": 1,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureCoordinate",
+    "Name": "MaterialExpressionTextureCoordinate_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureCoordinate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CoordinateIndex": 1,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureCoordinate",
+    "Name": "MaterialExpressionTextureCoordinate_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureCoordinate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "CoordinateIndex": 1,
+      "UTiling": 2.0,
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Diffuse",
+      "ExpressionGUID": "6726A372-414EB37C-AA682DA1-7E53F330",
+      "Texture": {
+        "ObjectName": "Texture2D'default_di'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_di.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Metallic/Roughness/Emissive-Occlusion",
+      "ExpressionGUID": "F91395AD-40D2BD80-E3A48CBD-BAC0C6F2",
+      "Texture": {
+        "ObjectName": "Texture2D'default_mr'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_mr.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_10",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "UITexture",
+      "ExpressionGUID": "B17E57CD-439701EB-103059AF-D12ABE17",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.103"
+        }
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'default_white_di'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_white_di.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_11",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Mask",
+      "ExpressionGUID": "A2239C50-43B6A1D9-E513ED9F-9F208A90",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.103"
+        }
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'gmp_world_map_masks_ma'",
+        "ObjectPath": "Athena/Content/Textures/Props/Gameplay/gmp_world_map_masks_ma.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Normal",
+      "ExpressionGUID": "1ED6267E-4DDA53D7-A41DEE92-C0CC140C",
+      "Texture": {
+        "ObjectName": "Texture2D'default_no'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_no.0"
+      },
+      "SamplerType": "SAMPLERTYPE_Normal",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "MapOverlay",
+      "ExpressionGUID": "A210FAEC-4DE7B0E1-27A5C5B5-17D52B6F",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.104"
+        }
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'gmp_world_map_overlay'",
+        "ObjectPath": "Athena/Content/Textures/Props/Gameplay/gmp_world_map_overlay.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_4",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "SeaEdgeMask",
+      "ExpressionGUID": "905AB9F1-446C7412-100F7398-935CEFC4",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionAdd'MT_unq_shipsmap:MaterialExpressionAdd_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.6"
+        }
+      },
+      "SamplerSource": "SSM_Clamp_WorldGroupSettings",
+      "Texture": {
+        "ObjectName": "Texture2D'gmp_world_map_seaedgemask_ma'",
+        "ObjectPath": "Athena/Content/Textures/Props/Gameplay/gmp_world_map_seaedgemask_ma.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearGrayscale",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_6",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "EdgeNoise",
+      "ExpressionGUID": "B31FDFF5-4D7ECC9E-0607AE83-92B20119",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionPanner'MT_unq_shipsmap:MaterialExpressionPanner_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.84"
+        }
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'Noise'",
+        "ObjectPath": "Athena/Content/Tests/Textures/Rendering/Rain/Noise.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_7",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "EdgeNoiseCombat",
+      "ExpressionGUID": "9D51F48D-40CE2CF0-7A4E8AB8-75D1566E",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionPanner'MT_unq_shipsmap:MaterialExpressionPanner_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.85"
+        }
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'Noise'",
+        "ObjectPath": "Athena/Content/Tests/Textures/Rendering/Rain/Noise.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_8",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "FeedbackTexture",
+      "ExpressionGUID": "CC42B989-48514FE0-0BBE38AF-449D67EA",
+      "Coordinates": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureCoordinate'MT_unq_shipsmap:MaterialExpressionTextureCoordinate_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.103"
+        }
+      },
+      "Texture": {
+        "ObjectName": "Texture2D'default_white_di'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_white_di.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "PaperColour",
+      "ExpressionGUID": "20D1BC90-43A8E5D9-E77248B4-DCF911D5",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_1",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.26,
+        "G": 0.217357,
+        "B": 0.25462,
+        "A": 0.0,
+        "Hex": "8B808A"
+      },
+      "ParameterName": "SeaEdgeColour",
+      "ExpressionGUID": "1D8A87CC-443A7E60-2DC106B1-E3618E73",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_10",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.469714,
+        "G": 0.4344,
+        "B": 0.905,
+        "A": 0.0,
+        "Hex": "B7B0F4"
+      },
+      "ParameterName": "DarkInkColour",
+      "ExpressionGUID": "33AA985B-44C5D627-9967A2A0-801D3065",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_11",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.48,
+        "G": 0.266375,
+        "B": 0.177905,
+        "A": 0.0,
+        "Hex": "B88D75"
+      },
+      "ParameterName": "LightInkColour",
+      "ExpressionGUID": "246F7E23-4C5AB30B-C7C93ABB-4AB99E59",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_12",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.5,
+        "G": 0.5,
+        "B": 0.5,
+        "A": 0.0,
+        "Hex": "BCBCBC"
+      },
+      "ParameterName": "GridPositionZoom",
+      "ExpressionGUID": "9F1F277D-4BA18E98-4A028FB2-F9BC42B2",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_13",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.170359,
+        "G": 0.167125,
+        "B": 0.175,
+        "A": 0.0,
+        "Hex": "737274"
+      },
+      "ParameterName": "GridLineColour",
+      "ExpressionGUID": "C8643855-4B953837-EBEDB1A2-9EB18693",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_14",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.835,
+        "G": 0.835,
+        "B": 0.835,
+        "A": 0.0,
+        "Hex": "ECECEC"
+      },
+      "ParameterName": "MapEdgeColour",
+      "ExpressionGUID": "6A5F4CF0-4E44AC72-0940E78A-6D3AB587",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_2",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 0.3,
+        "A": 1.0,
+        "Hex": "000095"
+      },
+      "ParameterName": "BoundaryData",
+      "ExpressionGUID": "D8D7A31B-4DEE96B3-EB3D24BE-6E4A7941",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_3",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 0.165,
+        "G": 0.045,
+        "B": 0.014841,
+        "A": 0.0,
+        "Hex": "713C20"
+      },
+      "ParameterName": "CombatBoundsColour",
+      "ExpressionGUID": "02CBD62E-4D5BE1BC-3F720B8A-22F9DE9F",
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVertexColor",
+    "Name": "MaterialExpressionVertexColor_0",
+    "Outer": "MT_unq_shipsmap",
+    "Class": "UScriptClass'MaterialExpressionVertexColor'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Material": {
+        "ObjectName": "Material'MT_unq_shipsmap'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Unique/MT_unq_shipsmap.0"
+      }
+    }
+  }
+]
