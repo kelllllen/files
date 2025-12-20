@@ -1,0 +1,4130 @@
+[
+  {
+    "Type": "BoolProperty",
+    "Name": "IsActive",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "ActiveRange",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:IsActive'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.0"
+    },
+    "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Map",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:ActiveRange'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.1"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Cube",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:Map'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.2"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'StaticMeshComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "TextureFeedback",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:Cube'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.3"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'TextureFeedbackComponent'",
+      "ObjectPath": "/Script/Athena"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ControlPoint_0",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:TextureFeedback'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.4"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ChildActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ControlPoint_1",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_0'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.5"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ChildActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ControlPoint_2",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_1'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.6"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ChildActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ControlPoint_3",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_2'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.7"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ChildActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ControlPoint_4",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_3'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.8"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ChildActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "ControlPoint_5",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_4'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.9"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'ChildActorComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "NavBlocker",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_5'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.10"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'BoxComponent'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "HitRegSnapshotRedirectImpactToReplicatedMovementAttachParent",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:NavBlocker'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.11"
+    },
+    "PropertyFlags": "BlueprintVisible | NonTransactional",
+    "PropertyClass": {
+      "ObjectName": "Class'HitRegSnapshotRedirectImpactToReplicatedMovementAttachParentComponent'",
+      "ObjectPath": "/Script/Athena"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_MakeStruct_LinearColor",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'LinearColor'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y2",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_MakeStruct_LinearColor'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.13"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X2",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_Y2'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.14"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_Y",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_X2'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.15"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_BreakVector2D_X",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_Y'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.16"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_ZoomLevel",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_X'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.17"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "K2Node_Event_CentreLocation",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_ZoomLevel'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.18"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_CentreLocation'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.19"
+    },
+    "Struct": {
+      "ObjectName": "ScriptStruct'TimerHandle'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "DelegateProperty",
+    "Name": "UniqueObjectNameForCooking_OutputDelegate",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'DelegateProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_K2_SetTimerDelegate_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.20"
+    },
+    "SignatureFunction": {
+      "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_Event_Texture",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "DelegateProperty'MapTable_C:ExecuteUbergraph_MapTable.UniqueObjectNameForCooking_OutputDelegate'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.21"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'TextureRenderTarget2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_Event_IsMapActive",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_Texture'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.22"
+    },
+    "PropertyFlags": "ConstParm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAuthority_ReturnValue",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_IsMapActive'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.23"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetTexture_ReturnValue",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_HasAuthority_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.24"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Texture'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_GetTexture_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.25"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MaterialInstanceDynamic'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "IntProperty",
+    "Name": "EntryPoint",
+    "Outer": "ExecuteUbergraph_MapTable",
+    "Class": "UScriptClass'IntProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_CreateDynamicMaterialInstance_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.26"
+    },
+    "PropertyFlags": "Parm"
+  },
+  {
+    "Type": "Function",
+    "Name": "ExecuteUbergraph_MapTable",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:HitRegSnapshotRedirectImpactToReplicatedMovementAttachParent'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.12"
+    },
+    "Children": [
+      {
+        "ObjectName": "IntProperty'MapTable_C:ExecuteUbergraph_MapTable.EntryPoint'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.27"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_ComputedJump",
+        "StatementIndex": 0,
+        "OffsetExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "IntProperty",
+            "Name": "EntryPoint",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'IntProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_CreateDynamicMaterialInstance_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.26"
+            },
+            "PropertyFlags": "Parm"
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 10,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "CallFunc_HasAuthority_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_IsMapActive'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.23"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'Actor:HasAuthority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 30,
+        "CodeOffset": 49,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.ExecuteUbergraph_MapTable[49]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "CallFunc_HasAuthority_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_IsMapActive'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.23"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 44,
+        "CodeOffset": 878,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.ExecuteUbergraph_MapTable[878]"
+      },
+      {
+        "Inst": "EX_BindDelegate",
+        "StatementIndex": 49,
+        "FunctionName": "SetEffectActiveWhenClose",
+        "Delegate": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "DelegateProperty",
+            "Name": "UniqueObjectNameForCooking_OutputDelegate",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'DelegateProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_K2_SetTimerDelegate_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.20"
+            },
+            "SignatureFunction": {
+              "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "ObjectTerm": {
+          "Inst": "EX_Self"
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 72,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_CentreLocation'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.19"
+            },
+            "Struct": {
+              "ObjectName": "ScriptStruct'TimerHandle'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "KismetSystemLibrary'Default__KismetSystemLibrary'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 25,
+          "RValuePointer": {
+            "Type": "StructProperty",
+            "Name": "CallFunc_K2_SetTimerDelegate_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_CentreLocation'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.19"
+            },
+            "Struct": {
+              "ObjectName": "ScriptStruct'TimerHandle'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'KismetSystemLibrary:K2_SetTimerDelegate'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Type": "DelegateProperty",
+                  "Name": "UniqueObjectNameForCooking_OutputDelegate",
+                  "Outer": "ExecuteUbergraph_MapTable",
+                  "Class": "UScriptClass'DelegateProperty'",
+                  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                  "Next": {
+                    "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_K2_SetTimerDelegate_ReturnValue'",
+                    "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.20"
+                  },
+                  "SignatureFunction": {
+                    "ObjectName": "DelegateFunction'TimerDynamicDelegate__DelegateSignature'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              },
+              {
+                "Inst": "EX_FloatConst",
+                "Value": 1.0
+              },
+              {
+                "Inst": "EX_True"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 137,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_GetTexture_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.25"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'MaterialInstanceDynamic'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "Map",
+              "Outer": "MapTable_C",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "FloatProperty'MapTable_C:ActiveRange'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.1"
+              },
+              "PropertyFlags": "BlueprintVisible | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'StaticMeshComponent'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          },
+          "Offset": 28,
+          "RValuePointer": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_GetTexture_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.25"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'MaterialInstanceDynamic'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "CreateDynamicMaterialInstance",
+            "Parameters": [
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              },
+              {
+                "Inst": "EX_InstanceVariable",
+                "Variable": {
+                  "ObjectName": "ObjectProperty'MapTable:ExpandedMapMaterial'",
+                  "ObjectPath": "/Script/Athena"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 197,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+            "ObjectPath": "/Script/Athena"
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_CreateDynamicMaterialInstance_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_GetTexture_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.25"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'MaterialInstanceDynamic'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 216,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetTexture_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_HasAuthority_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.24"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'Texture'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "TextureFeedback",
+              "Outer": "MapTable_C",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "ObjectProperty'MapTable_C:Cube'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.3"
+              },
+              "PropertyFlags": "BlueprintVisible | NonTransactional",
+              "PropertyClass": {
+                "ObjectName": "Class'TextureFeedbackComponent'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 10,
+          "RValuePointer": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetTexture_ReturnValue",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_HasAuthority_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.24"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'Texture'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'TextureFeedbackComponent:GetTexture'",
+              "ObjectPath": "/Script/Athena"
+            },
+            "Parameters": []
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 258,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+            "ObjectPath": "/Script/Athena"
+          }
+        },
+        "Offset": 32,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'MaterialInstanceDynamic:SetTextureParameterValue'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "FeedbackTexture"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetTexture_ReturnValue",
+                "Outer": "ExecuteUbergraph_MapTable",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "BoolProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_HasAuthority_ReturnValue'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.24"
+                },
+                "PropertyClass": {
+                  "ObjectName": "Class'Texture'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 312,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "Map",
+            "Outer": "MapTable_C",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "FloatProperty'MapTable_C:ActiveRange'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.1"
+            },
+            "PropertyFlags": "BlueprintVisible | NonTransactional",
+            "PropertyClass": {
+              "ObjectName": "Class'StaticMeshComponent'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "Offset": 28,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_VirtualFunction",
+          "Function": "SetMaterial",
+          "Parameters": [
+            {
+              "Inst": "EX_IntConst",
+              "Value": 0
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_FinalFunction",
+        "StatementIndex": 362,
+        "Function": {
+          "ObjectName": "Function'MapTable:SetMaterialInstanceDynamic'",
+          "ObjectPath": "/Script/Athena"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 381,
+        "CodeOffset": 878,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.ExecuteUbergraph_MapTable[878]"
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 386,
+        "Function": "UpdateBlurEffect",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 400,
+        "CodeOffset": 878,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.ExecuteUbergraph_MapTable[878]"
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 405,
+        "Variable": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "IsActive",
+            "Outer": "MapTable_C",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_Event_IsMapActive",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_Texture'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.22"
+            },
+            "PropertyFlags": "ConstParm",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 424,
+        "Function": "UpdateBlurEffect",
+        "Parameters": []
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 438,
+        "CodeOffset": 878,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.ExecuteUbergraph_MapTable[878]",
+        "BooleanExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "IsActive",
+            "Outer": "MapTable_C",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 452,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "TextureFeedback",
+            "Outer": "MapTable_C",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:Cube'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.3"
+            },
+            "PropertyFlags": "BlueprintVisible | NonTransactional",
+            "PropertyClass": {
+              "ObjectName": "Class'TextureFeedbackComponent'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Offset": 19,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'TextureFeedbackComponent:SetInputTexture1'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_Event_Texture",
+                "Outer": "ExecuteUbergraph_MapTable",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "DelegateProperty'MapTable_C:ExecuteUbergraph_MapTable.UniqueObjectNameForCooking_OutputDelegate'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.21"
+                },
+                "PropertyClass": {
+                  "ObjectName": "Class'TextureRenderTarget2D'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 493,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+            "ObjectPath": "/Script/Athena"
+          }
+        },
+        "Offset": 32,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'MaterialInstanceDynamic:SetTextureParameterValue'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "UITexture"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "K2Node_Event_Texture",
+                "Outer": "ExecuteUbergraph_MapTable",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "DelegateProperty'MapTable_C:ExecuteUbergraph_MapTable.UniqueObjectNameForCooking_OutputDelegate'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.21"
+                },
+                "PropertyClass": {
+                  "ObjectName": "Class'TextureRenderTarget2D'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 547,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+            "ObjectPath": "/Script/Athena"
+          }
+        },
+        "Offset": 32,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'MaterialInstanceDynamic:SetVectorParameterValue'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "BoundaryData"
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "ObjectName": "StructProperty'MapTable:BoundaryData'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 601,
+        "CodeOffset": 878,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.ExecuteUbergraph_MapTable[878]"
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 606,
+        "Function": {
+          "ObjectName": "Function'KismetMathLibrary:BreakVector2D'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "StructProperty",
+              "Name": "K2Node_Event_ZoomLevel",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'StructProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_X'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.17"
+              },
+              "Struct": {
+                "ObjectName": "ScriptStruct'Vector2D'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_BreakVector2D_X",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'FloatProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_Y'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.16"
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_BreakVector2D_Y",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'FloatProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_X2'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.15"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_CallMath",
+        "StatementIndex": 643,
+        "Function": {
+          "ObjectName": "Function'KismetMathLibrary:BreakVector2D'",
+          "ObjectPath": "/Script/Engine"
+        },
+        "Parameters": [
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "StructProperty",
+              "Name": "K2Node_Event_CentreLocation",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'StructProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_ZoomLevel'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.18"
+              },
+              "Struct": {
+                "ObjectName": "ScriptStruct'Vector2D'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_BreakVector2D_X2",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'FloatProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_Y2'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.14"
+              }
+            }
+          },
+          {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "FloatProperty",
+              "Name": "CallFunc_BreakVector2D_Y2",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'FloatProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_MakeStruct_LinearColor'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.13"
+              }
+            }
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 680,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "ObjectName": "FloatProperty'LinearColor:R'",
+            "ObjectPath": "/Script/CoreUObject"
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "StructProperty",
+              "Name": "K2Node_MakeStruct_LinearColor",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'StructProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Struct": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "FloatProperty",
+            "Name": "CallFunc_BreakVector2D_X2",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'FloatProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_Y2'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.14"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 716,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "ObjectName": "FloatProperty'LinearColor:G'",
+            "ObjectPath": "/Script/CoreUObject"
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "StructProperty",
+              "Name": "K2Node_MakeStruct_LinearColor",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'StructProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Struct": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "FloatProperty",
+            "Name": "CallFunc_BreakVector2D_Y2",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'FloatProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_MakeStruct_LinearColor'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.13"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 752,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "ObjectName": "FloatProperty'LinearColor:B'",
+            "ObjectPath": "/Script/CoreUObject"
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "StructProperty",
+              "Name": "K2Node_MakeStruct_LinearColor",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'StructProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Struct": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "FloatProperty",
+            "Name": "CallFunc_BreakVector2D_X",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'FloatProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_Y'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.16"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 788,
+        "Variable": {
+          "Inst": "EX_StructMemberContext",
+          "Property": {
+            "ObjectName": "FloatProperty'LinearColor:A'",
+            "ObjectPath": "/Script/CoreUObject"
+          },
+          "StructExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "StructProperty",
+              "Name": "K2Node_MakeStruct_LinearColor",
+              "Outer": "ExecuteUbergraph_MapTable",
+              "Class": "UScriptClass'StructProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Struct": {
+                "ObjectName": "ScriptStruct'LinearColor'",
+                "ObjectPath": "/Script/CoreUObject"
+              }
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "FloatProperty",
+            "Name": "CallFunc_BreakVector2D_Y",
+            "Outer": "ExecuteUbergraph_MapTable",
+            "Class": "UScriptClass'FloatProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_X2'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.15"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 824,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "ObjectName": "ObjectProperty'MapTable:DynamicMaterial'",
+            "ObjectPath": "/Script/Athena"
+          }
+        },
+        "Offset": 32,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'MaterialInstanceDynamic:SetVectorParameterValue'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_NameConst",
+              "Value": "GridPositionZoom"
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "StructProperty",
+                "Name": "K2Node_MakeStruct_LinearColor",
+                "Outer": "ExecuteUbergraph_MapTable",
+                "Class": "UScriptClass'StructProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Struct": {
+                  "ObjectName": "ScriptStruct'LinearColor'",
+                  "ObjectPath": "/Script/CoreUObject"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 878,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 880
+      }
+    ],
+    "FunctionFlags": "FUNC_HasDefaults"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ZoomLevel",
+    "Outer": "OnMapMove",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CentreLocation",
+    "Outer": "OnMapMove",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:OnMapMove.ZoomLevel'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.29"
+    },
+    "PropertyFlags": "Parm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector2D'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMapMove",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:ExecuteUbergraph_MapTable'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.28"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'MapTable:OnMapMove'",
+      "ObjectPath": "/Script/Athena"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MapTable_C:OnMapMove.CentreLocation'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.30"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Type": "StructProperty",
+          "Name": "K2Node_Event_CentreLocation",
+          "Outer": "ExecuteUbergraph_MapTable",
+          "Class": "UScriptClass'StructProperty'",
+          "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+          "Next": {
+            "ObjectName": "StructProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_ZoomLevel'",
+            "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.18"
+          },
+          "Struct": {
+            "ObjectName": "ScriptStruct'Vector2D'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "CentreLocation",
+            "Outer": "OnMapMove",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:OnMapMove.ZoomLevel'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.29"
+            },
+            "PropertyFlags": "Parm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector2D'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 18,
+        "DestinationProperty": {
+          "Type": "StructProperty",
+          "Name": "K2Node_Event_ZoomLevel",
+          "Outer": "ExecuteUbergraph_MapTable",
+          "Class": "UScriptClass'StructProperty'",
+          "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+          "Next": {
+            "ObjectName": "FloatProperty'MapTable_C:ExecuteUbergraph_MapTable.CallFunc_BreakVector2D_X'",
+            "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.17"
+          },
+          "Struct": {
+            "ObjectName": "ScriptStruct'Vector2D'",
+            "ObjectPath": "/Script/CoreUObject"
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "ZoomLevel",
+            "Outer": "OnMapMove",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "PropertyFlags": "Parm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector2D'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 36,
+        "Function": "ExecuteUbergraph_MapTable",
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 606
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 55,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 57
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "Texture",
+    "Outer": "OnMapActivate",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "PropertyFlags": "Parm",
+    "PropertyClass": {
+      "ObjectName": "Class'TextureRenderTarget2D'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "IsMapActive",
+    "Outer": "OnMapActivate",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:OnMapActivate.Texture'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.32"
+    },
+    "PropertyFlags": "ConstParm | Parm",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "OnMapActivate",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:OnMapMove'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.31"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'MapTable:OnMapActivate'",
+      "ObjectPath": "/Script/Athena"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'MapTable_C:OnMapActivate.IsMapActive'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.33"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 0,
+        "DestinationProperty": {
+          "Type": "BoolProperty",
+          "Name": "K2Node_Event_IsMapActive",
+          "Outer": "ExecuteUbergraph_MapTable",
+          "Class": "UScriptClass'BoolProperty'",
+          "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+          "Next": {
+            "ObjectName": "ObjectProperty'MapTable_C:ExecuteUbergraph_MapTable.K2Node_Event_Texture'",
+            "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.22"
+          },
+          "PropertyFlags": "ConstParm",
+          "BoolSize": 1,
+          "bIsNativeBool": true
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "IsMapActive",
+            "Outer": "OnMapActivate",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:OnMapActivate.Texture'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.32"
+            },
+            "PropertyFlags": "ConstParm | Parm",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetValueOnPersistentFrame",
+        "StatementIndex": 18,
+        "DestinationProperty": {
+          "Type": "ObjectProperty",
+          "Name": "K2Node_Event_Texture",
+          "Outer": "ExecuteUbergraph_MapTable",
+          "Class": "UScriptClass'ObjectProperty'",
+          "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+          "Next": {
+            "ObjectName": "DelegateProperty'MapTable_C:ExecuteUbergraph_MapTable.UniqueObjectNameForCooking_OutputDelegate'",
+            "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.21"
+          },
+          "PropertyClass": {
+            "ObjectName": "Class'TextureRenderTarget2D'",
+            "ObjectPath": "/Script/Engine"
+          }
+        },
+        "AssignmentExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "Texture",
+            "Outer": "OnMapActivate",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "PropertyFlags": "Parm",
+            "PropertyClass": {
+              "ObjectName": "Class'TextureRenderTarget2D'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 36,
+        "Function": "ExecuteUbergraph_MapTable",
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 405
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 55,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 57
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "SetEffectActiveWhenClose",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:OnMapActivate'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.34"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 0,
+        "Function": "ExecuteUbergraph_MapTable",
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 386
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 19,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 21
+      }
+    ],
+    "FunctionFlags": "FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "Function",
+    "Name": "ReceiveBeginPlay",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:SetEffectActiveWhenClose'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.35"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:ReceiveBeginPlay'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_VirtualFunction",
+        "StatementIndex": 0,
+        "Function": "ExecuteUbergraph_MapTable",
+        "Parameters": [
+          {
+            "Inst": "EX_IntConst",
+            "Value": 10
+          }
+        ]
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 19,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 21
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess3",
+    "Outer": "UserConstructionScript",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point3",
+    "Outer": "UserConstructionScript",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess3'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.37"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MapTableControlPoint'",
+      "ObjectPath": "/Script/Athena"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess2",
+    "Outer": "UserConstructionScript",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point3'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.38"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point2",
+    "Outer": "UserConstructionScript",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess2'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.39"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MapTableControlPoint'",
+      "ObjectPath": "/Script/Athena"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "K2Node_DynamicCast_bSuccess",
+    "Outer": "UserConstructionScript",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point2'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.40"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point",
+    "Outer": "UserConstructionScript",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.41"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'MapTableControlPoint'",
+      "ObjectPath": "/Script/Athena"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "UserConstructionScript",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:ReceiveBeginPlay'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.36"
+    },
+    "SuperStruct": {
+      "ObjectName": "Function'Actor:UserConstructionScript'",
+      "ObjectPath": "/Script/Engine"
+    },
+    "Children": [
+      {
+        "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.42"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point3",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess3'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.37"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'MapTableControlPoint'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'MapTableControlPoint'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "Target": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "ControlPoint_3",
+                "Outer": "MapTable_C",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_2'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.7"
+                },
+                "PropertyFlags": "BlueprintVisible | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'ChildActorComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "ObjectName": "ObjectProperty'ChildActorComponent:ChildActor'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "ObjectName": "ObjectProperty'ChildActorComponent:ChildActor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 58,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_DynamicCast_bSuccess3",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point3",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess3'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.37"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 87,
+        "CodeOffset": 561,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.UserConstructionScript[561]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_DynamicCast_bSuccess3",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 101,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point3",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess3'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.37"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "ObjectName": "NameProperty'MapTableControlPoint:CameraSocketName'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "NameProperty'MapTableControlPoint:CameraSocketName'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_NameConst",
+          "Value": "CameraSocket_1"
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 154,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point3",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess3'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.37"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "ObjectName": "BoolProperty'MapTableControlPoint:InvertControls'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "BoolProperty'MapTableControlPoint:InvertControls'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 187,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point2",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess2'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.39"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'MapTableControlPoint'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'MapTableControlPoint'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "Target": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "ControlPoint_4",
+                "Outer": "MapTable_C",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_3'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.8"
+                },
+                "PropertyFlags": "BlueprintVisible | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'ChildActorComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "ObjectName": "ObjectProperty'ChildActorComponent:ChildActor'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "ObjectName": "ObjectProperty'ChildActorComponent:ChildActor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 245,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_DynamicCast_bSuccess2",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point3'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.38"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point2",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess2'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.39"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 274,
+        "CodeOffset": 561,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.UserConstructionScript[561]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_DynamicCast_bSuccess2",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point3'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.38"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 288,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point2",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess2'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.39"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "ObjectName": "NameProperty'MapTableControlPoint:CameraSocketName'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "NameProperty'MapTableControlPoint:CameraSocketName'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_NameConst",
+          "Value": "CameraSocket_1"
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 341,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point2",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess2'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.39"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "ObjectName": "BoolProperty'MapTableControlPoint:InvertControls'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "BoolProperty'MapTableControlPoint:InvertControls'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 374,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.41"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'MapTableControlPoint'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_DynamicCast",
+          "InterfaceClass": {
+            "ObjectName": "Class'MapTableControlPoint'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "Target": {
+            "Inst": "EX_Context",
+            "ObjectExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "ControlPoint_5",
+                "Outer": "MapTable_C",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "ObjectProperty'MapTable_C:ControlPoint_4'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.9"
+                },
+                "PropertyFlags": "BlueprintVisible | NonTransactional",
+                "PropertyClass": {
+                  "ObjectName": "Class'ChildActorComponent'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            },
+            "Offset": 9,
+            "RValuePointer": {
+              "ObjectName": "ObjectProperty'ChildActorComponent:ChildActor'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "ContextExpression": {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "ObjectName": "ObjectProperty'ChildActorComponent:ChildActor'",
+                "ObjectPath": "/Script/Engine"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 432,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_DynamicCast_bSuccess",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point2'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.40"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Cast",
+          "ConversionType": "CST_ObjectToBool2",
+          "Target": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.41"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 461,
+        "CodeOffset": 561,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.UserConstructionScript[561]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "K2Node_DynamicCast_bSuccess",
+            "Outer": "UserConstructionScript",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_AsMap_Table_Control_Point2'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.40"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 475,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.41"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "ObjectName": "NameProperty'MapTableControlPoint:CameraSocketName'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "NameProperty'MapTableControlPoint:CameraSocketName'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_NameConst",
+          "Value": "CameraSocket_1"
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 528,
+        "Variable": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_LocalVariable",
+            "Variable": {
+              "Type": "ObjectProperty",
+              "Name": "K2Node_DynamicCast_AsMap_Table_Control_Point",
+              "Outer": "UserConstructionScript",
+              "Class": "UScriptClass'ObjectProperty'",
+              "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+              "Next": {
+                "ObjectName": "BoolProperty'MapTable_C:UserConstructionScript.K2Node_DynamicCast_bSuccess'",
+                "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.41"
+              },
+              "PropertyClass": {
+                "ObjectName": "Class'MapTableControlPoint'",
+                "ObjectPath": "/Script/Athena"
+              }
+            }
+          },
+          "Offset": 9,
+          "RValuePointer": {
+            "ObjectName": "BoolProperty'MapTableControlPoint:InvertControls'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "ContextExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "BoolProperty'MapTableControlPoint:InvertControls'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_True"
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 561,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 563
+      }
+    ],
+    "FunctionFlags": "FUNC_Event | FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "CallFunc_GetSocketLocation_ReturnValue",
+    "Outer": "GetClosestInteractionPoint",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ReturnValue",
+    "Outer": "GetClosestInteractionPoint",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:GetClosestInteractionPoint.CallFunc_GetSocketLocation_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.44"
+    },
+    "PropertyFlags": "Parm | OutParm | ReturnParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "OutInteractionPointRadius",
+    "Outer": "GetClosestInteractionPoint",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "StructProperty'MapTable_C:GetClosestInteractionPoint.ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.45"
+    },
+    "PropertyFlags": "Parm | OutParm"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "ReferencePosition",
+    "Outer": "GetClosestInteractionPoint",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:GetClosestInteractionPoint.OutInteractionPointRadius'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.46"
+    },
+    "PropertyFlags": "ConstParm | Parm | OutParm | ReferenceParm",
+    "Struct": {
+      "ObjectName": "ScriptStruct'Vector'",
+      "ObjectPath": "/Script/CoreUObject"
+    }
+  },
+  {
+    "Type": "Function",
+    "Name": "GetClosestInteractionPoint",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:UserConstructionScript'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.43"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MapTable_C:GetClosestInteractionPoint.ReferencePosition'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.47"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "CallFunc_GetSocketLocation_ReturnValue",
+            "Outer": "GetClosestInteractionPoint",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_InstanceVariable",
+            "Variable": {
+              "ObjectName": "ObjectProperty'MapTable:TableMeshComponent'",
+              "ObjectPath": "/Script/Athena"
+            }
+          },
+          "Offset": 27,
+          "RValuePointer": {
+            "Type": "StructProperty",
+            "Name": "CallFunc_GetSocketLocation_ReturnValue",
+            "Outer": "GetClosestInteractionPoint",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_VirtualFunction",
+            "Function": "GetSocketLocation",
+            "Parameters": [
+              {
+                "Inst": "EX_NameConst",
+                "Value": "CharacterPositionSocket"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 67,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Type": "FloatProperty",
+            "Name": "OutInteractionPointRadius",
+            "Outer": "GetClosestInteractionPoint",
+            "Class": "UScriptClass'FloatProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:GetClosestInteractionPoint.ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.45"
+            },
+            "PropertyFlags": "Parm | OutParm"
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FloatConst",
+          "Value": 0.0
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 90,
+        "Variable": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "ReturnValue",
+            "Outer": "GetClosestInteractionPoint",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:GetClosestInteractionPoint.CallFunc_GetSocketLocation_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.44"
+            },
+            "PropertyFlags": "Parm | OutParm | ReturnParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "CallFunc_GetSocketLocation_ReturnValue",
+            "Outer": "GetClosestInteractionPoint",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 117,
+        "Expression": {
+          "Inst": "EX_LocalOutVariable",
+          "Variable": {
+            "Type": "StructProperty",
+            "Name": "ReturnValue",
+            "Outer": "GetClosestInteractionPoint",
+            "Class": "UScriptClass'StructProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "StructProperty'MapTable_C:GetClosestInteractionPoint.CallFunc_GetSocketLocation_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.44"
+            },
+            "PropertyFlags": "Parm | OutParm | ReturnParm",
+            "Struct": {
+              "ObjectName": "ScriptStruct'Vector'",
+              "ObjectPath": "/Script/CoreUObject"
+            }
+          }
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 127
+      }
+    ],
+    "FunctionFlags": "FUNC_HasOutParms | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_BooleanAND_ReturnValue",
+    "Outer": "UpdateBlurEffect",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+    "Outer": "UpdateBlurEffect",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_BooleanAND_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.49"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "FloatProperty",
+    "Name": "CallFunc_GetDistanceTo_ReturnValue",
+    "Outer": "UpdateBlurEffect",
+    "Class": "UScriptClass'FloatProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_Less_FloatFloat_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.50"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+    "Outer": "UpdateBlurEffect",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "FloatProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetDistanceTo_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.51"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'Pawn'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "ObjectProperty",
+    "Name": "CallFunc_GetPlayerController_ReturnValue",
+    "Outer": "UpdateBlurEffect",
+    "Class": "UScriptClass'ObjectProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerPawn_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.52"
+    },
+    "PropertyClass": {
+      "ObjectName": "Class'PlayerController'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BoolProperty",
+    "Name": "CallFunc_HasAuthority_ReturnValue",
+    "Outer": "UpdateBlurEffect",
+    "Class": "UScriptClass'BoolProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerController_ReturnValue'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.53"
+    },
+    "BoolSize": 1,
+    "bIsNativeBool": true
+  },
+  {
+    "Type": "Function",
+    "Name": "UpdateBlurEffect",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'Function'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:GetClosestInteractionPoint'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.48"
+    },
+    "Children": [
+      {
+        "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_HasAuthority_ReturnValue'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.54"
+      }
+    ],
+    "ScriptBytecode": [
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 0,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "CallFunc_HasAuthority_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerController_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.53"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'Actor:HasAuthority'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": []
+        }
+      },
+      {
+        "Inst": "EX_JumpIfNot",
+        "StatementIndex": 20,
+        "CodeOffset": 39,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.UpdateBlurEffect[39]",
+        "BooleanExpression": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "CallFunc_HasAuthority_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerController_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.53"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 34,
+        "CodeOffset": 302,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.UpdateBlurEffect[302]"
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 39,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetPlayerController_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerPawn_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.52"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'PlayerController'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "GameplayStatics'Default__GameplayStatics'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 16,
+          "RValuePointer": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetPlayerController_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerPawn_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.52"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'PlayerController'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'GameplayStatics:GetPlayerController'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_Self"
+              },
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_LetObj",
+        "StatementIndex": 87,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "FloatProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetDistanceTo_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.51"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'Pawn'",
+              "ObjectPath": "/Script/Engine"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_Context",
+          "ObjectExpression": {
+            "Inst": "EX_ObjectConst",
+            "Value": {
+              "ObjectName": "GameplayStatics'Default__GameplayStatics'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "Offset": 24,
+          "RValuePointer": {
+            "Type": "ObjectProperty",
+            "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "FloatProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetDistanceTo_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.51"
+            },
+            "PropertyClass": {
+              "ObjectName": "Class'Pawn'",
+              "ObjectPath": "/Script/Engine"
+            }
+          },
+          "ContextExpression": {
+            "Inst": "EX_FinalFunction",
+            "Function": {
+              "ObjectName": "Function'GameplayStatics:GetPlayerPawn'",
+              "ObjectPath": "/Script/Engine"
+            },
+            "Parameters": [
+              {
+                "Inst": "EX_LocalVariable",
+                "Variable": {
+                  "Type": "ObjectProperty",
+                  "Name": "CallFunc_GetPlayerController_ReturnValue",
+                  "Outer": "UpdateBlurEffect",
+                  "Class": "UScriptClass'ObjectProperty'",
+                  "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                  "Next": {
+                    "ObjectName": "ObjectProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetPlayerPawn_ReturnValue'",
+                    "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.52"
+                  },
+                  "PropertyClass": {
+                    "ObjectName": "Class'PlayerController'",
+                    "ObjectPath": "/Script/Engine"
+                  }
+                }
+              },
+              {
+                "Inst": "EX_IntConst",
+                "Value": 0
+              }
+            ]
+          }
+        }
+      },
+      {
+        "Inst": "EX_Let",
+        "StatementIndex": 143,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "FloatProperty",
+            "Name": "CallFunc_GetDistanceTo_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'FloatProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_Less_FloatFloat_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.50"
+            }
+          }
+        },
+        "Expression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'Actor:GetDistanceTo'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "ObjectProperty",
+                "Name": "CallFunc_GetPlayerPawn_ReturnValue",
+                "Outer": "UpdateBlurEffect",
+                "Class": "UScriptClass'ObjectProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "FloatProperty'MapTable_C:UpdateBlurEffect.CallFunc_GetDistanceTo_ReturnValue'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.51"
+                },
+                "PropertyClass": {
+                  "ObjectName": "Class'Pawn'",
+                  "ObjectPath": "/Script/Engine"
+                }
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 180,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_BooleanAND_ReturnValue'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.49"
+            },
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:Less_FloatFloat'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "FloatProperty",
+                "Name": "CallFunc_GetDistanceTo_ReturnValue",
+                "Outer": "UpdateBlurEffect",
+                "Class": "UScriptClass'FloatProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_Less_FloatFloat_ReturnValue'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.50"
+                }
+              }
+            },
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Type": "FloatProperty",
+                "Name": "ActiveRange",
+                "Outer": "MapTable_C",
+                "Class": "UScriptClass'FloatProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "BoolProperty'MapTable_C:IsActive'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.0"
+                },
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_LetBool",
+        "StatementIndex": 218,
+        "Variable": {
+          "Inst": "EX_LocalVariable",
+          "Variable": {
+            "Type": "BoolProperty",
+            "Name": "CallFunc_BooleanAND_ReturnValue",
+            "Outer": "UpdateBlurEffect",
+            "Class": "UScriptClass'BoolProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "BoolSize": 1,
+            "bIsNativeBool": true
+          }
+        },
+        "Expression": {
+          "Inst": "EX_CallMath",
+          "Function": {
+            "ObjectName": "Function'KismetMathLibrary:BooleanAND'",
+            "ObjectPath": "/Script/Engine"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_InstanceVariable",
+              "Variable": {
+                "Type": "BoolProperty",
+                "Name": "IsActive",
+                "Outer": "MapTable_C",
+                "Class": "UScriptClass'BoolProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "PropertyFlags": "Edit | BlueprintVisible | DisableEditOnInstance",
+                "BoolSize": 1,
+                "bIsNativeBool": true
+              }
+            },
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_Less_FloatFloat_ReturnValue",
+                "Outer": "UpdateBlurEffect",
+                "Class": "UScriptClass'BoolProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "Next": {
+                  "ObjectName": "BoolProperty'MapTable_C:UpdateBlurEffect.CallFunc_BooleanAND_ReturnValue'",
+                  "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.49"
+                },
+                "BoolSize": 1,
+                "bIsNativeBool": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Context",
+        "StatementIndex": 256,
+        "ObjectExpression": {
+          "Inst": "EX_InstanceVariable",
+          "Variable": {
+            "Type": "ObjectProperty",
+            "Name": "TextureFeedback",
+            "Outer": "MapTable_C",
+            "Class": "UScriptClass'ObjectProperty'",
+            "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+            "Next": {
+              "ObjectName": "ObjectProperty'MapTable_C:Cube'",
+              "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.3"
+            },
+            "PropertyFlags": "BlueprintVisible | NonTransactional",
+            "PropertyClass": {
+              "ObjectName": "Class'TextureFeedbackComponent'",
+              "ObjectPath": "/Script/Athena"
+            }
+          }
+        },
+        "Offset": 19,
+        "RValuePointer": null,
+        "ContextExpression": {
+          "Inst": "EX_FinalFunction",
+          "Function": {
+            "ObjectName": "Function'TextureFeedbackComponent:SetEffectActive'",
+            "ObjectPath": "/Script/Athena"
+          },
+          "Parameters": [
+            {
+              "Inst": "EX_LocalVariable",
+              "Variable": {
+                "Type": "BoolProperty",
+                "Name": "CallFunc_BooleanAND_ReturnValue",
+                "Outer": "UpdateBlurEffect",
+                "Class": "UScriptClass'BoolProperty'",
+                "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+                "BoolSize": 1,
+                "bIsNativeBool": true
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Inst": "EX_Jump",
+        "StatementIndex": 297,
+        "CodeOffset": 34,
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.UpdateBlurEffect[34]"
+      },
+      {
+        "Inst": "EX_Return",
+        "StatementIndex": 302,
+        "Expression": {
+          "Inst": "EX_Nothing"
+        }
+      },
+      {
+        "Inst": "EX_EndOfScript",
+        "StatementIndex": 304
+      }
+    ],
+    "FunctionFlags": "FUNC_Public | FUNC_BlueprintCallable | FUNC_BlueprintEvent"
+  },
+  {
+    "Type": "StructProperty",
+    "Name": "UberGraphFrame",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'StructProperty'",
+    "Flags": "RF_Public | RF_WasLoaded | RF_LoadCompleted",
+    "Next": {
+      "ObjectName": "Function'MapTable_C:UpdateBlurEffect'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.55"
+    },
+    "PropertyFlags": "Transient | DuplicateTransient",
+    "Struct": {
+      "ObjectName": "ScriptStruct'PointerToUberGraphFrame'",
+      "ObjectPath": "/Script/Engine"
+    }
+  },
+  {
+    "Type": "BlueprintGeneratedClass",
+    "Name": "MapTable_C",
+    "Class": "UScriptClass'BlueprintGeneratedClass'",
+    "Flags": "RF_Public | RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "SimpleConstructionScript": {
+        "ObjectName": "SimpleConstructionScript'MapTable_C:SimpleConstructionScript_1'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.79"
+      },
+      "UberGraphFramePointerProperty": {
+        "ObjectName": "StructProperty'MapTable_C:UberGraphFrame'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.56"
+      },
+      "UberGraphFunction": {
+        "ObjectName": "Function'MapTable_C:ExecuteUbergraph_MapTable'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.28"
+      }
+    },
+    "SuperStruct": {
+      "ObjectName": "Class'MapTable'",
+      "ObjectPath": "/Script/Athena"
+    },
+    "Children": [
+      {
+        "ObjectName": "StructProperty'MapTable_C:UberGraphFrame'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.56"
+      }
+    ],
+    "FuncMap": {
+      "ExecuteUbergraph_MapTable": {
+        "ObjectName": "Function'MapTable_C:ExecuteUbergraph_MapTable'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.28"
+      },
+      "OnMapMove": {
+        "ObjectName": "Function'MapTable_C:OnMapMove'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.31"
+      },
+      "OnMapActivate": {
+        "ObjectName": "Function'MapTable_C:OnMapActivate'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.34"
+      },
+      "SetEffectActiveWhenClose": {
+        "ObjectName": "Function'MapTable_C:SetEffectActiveWhenClose'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.35"
+      },
+      "ReceiveBeginPlay": {
+        "ObjectName": "Function'MapTable_C:ReceiveBeginPlay'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.36"
+      },
+      "UserConstructionScript": {
+        "ObjectName": "Function'MapTable_C:UserConstructionScript'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.43"
+      },
+      "GetClosestInteractionPoint": {
+        "ObjectName": "Function'MapTable_C:GetClosestInteractionPoint'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.48"
+      },
+      "UpdateBlurEffect": {
+        "ObjectName": "Function'MapTable_C:UpdateBlurEffect'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.55"
+      }
+    },
+    "ClassFlags": "CLASS_Optional | CLASS_CompiledFromBlueprint | CLASS_TokenStreamAssembled | CLASS_HasInstancedReference",
+    "ClassWithin": {
+      "ObjectName": "Class'Object'",
+      "ObjectPath": "/Script/CoreUObject"
+    },
+    "ClassConfigName": "Engine",
+    "bCooked": true,
+    "ClassDefaultObject": {
+      "ObjectName": "MapTable_C'Default__MapTable_C'",
+      "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.58"
+    }
+  },
+  {
+    "Type": "MapTable_C",
+    "Name": "Default__MapTable_C",
+    "Class": "BlueprintGeneratedClass'Athena/Content/Blueprints/GameObjects/MapTable/MapTable.MapTable_C'",
+    "Flags": "RF_Public | RF_ClassDefaultObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "UberGraphFrame": {},
+      "ActiveRange": 1000.0,
+      "TableMeshComponent": {
+        "ObjectName": "StaticMeshComponent'Default__MapTable_C:TableMesh'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.80"
+      },
+      "PanSpeedMinZoom": 400.0,
+      "PanSpeedMaxZoom": 3000.0,
+      "ZoomSpeed": 2750.0,
+      "MinZoom": 650.0,
+      "InitialZoom": 10000.0,
+      "PinToggleDist": 200.0,
+      "MaxTrail": 50,
+      "MinDistPerTrailDrop": 8000.0,
+      "TimePerTrailUpdate": 2.0,
+      "MapTablePool": {
+        "ObjectName": "WwiseObjectPoolWrapper'pool_map_table'",
+        "ObjectPath": "Athena/Content/WwiseAudio/PoolWrappers/pool_map_table.0"
+      },
+      "JoinTableSfx": {
+        "ObjectName": "WwiseEvent'Play_sfx_interact_map_study_base'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_sfx_interact_map_study_base.0"
+      },
+      "LeaveTableSfx": {
+        "ObjectName": "WwiseEvent'Play_sfx_interact_map_study_leave'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_sfx_interact_map_study_leave.0"
+      },
+      "PlayMoveMapSfx": {
+        "ObjectName": "WwiseEvent'Play_sfx_interact_map_study_move'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_sfx_interact_map_study_move.0"
+      },
+      "StopMoveMapSfx": {
+        "ObjectName": "WwiseEvent'Stop_sfx_interact_map_study_move'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Stop_sfx_interact_map_study_move.0"
+      },
+      "PlacePinSfx": {
+        "ObjectName": "WwiseEvent'Play_sfx_interact_map_pin_add'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_sfx_interact_map_pin_add.0"
+      },
+      "RemovePinSfx": {
+        "ObjectName": "WwiseEvent'Play_sfx_interact_map_pin_remove'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_sfx_interact_map_pin_remove.0"
+      },
+      "ShowTaleSfx": {
+        "ObjectName": "WwiseEvent'Play_ui_maptable_tale_open'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_ui_maptable_tale_open.0"
+      },
+      "HideTaleSfx": {
+        "ObjectName": "WwiseEvent'Play_ui_maptable_tale_close'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_ui_maptable_tale_close.0"
+      },
+      "HighlightTaleMarkerSfx": {
+        "ObjectName": "WwiseEvent'Play_ui_maptable_tale_hover'",
+        "ObjectPath": "Athena/Content/WwiseAudio/UAssets/Events/Play_ui_maptable_tale_hover.0"
+      },
+      "ReapersMarkFlag": {
+        "ObjectName": "BlueprintGeneratedClass'flag_reapersmark_01_CustomizationDesc_C'",
+        "ObjectPath": "Athena/Content/Blueprints/Ships/PartCustomization/Mast/flag_reapersmark_01_CustomizationDesc.0"
+      },
+      "ExpandedMapMaterial": {
+        "ObjectName": "MaterialInstanceConstant'gmp_world_map_dvr_expanded_01_a'",
+        "ObjectPath": "Athena/Content/Materials/Props/Gameplay/gmp_world_map_dvr_expanded_01_a.0"
+      },
+      "BaseMapMaterial": {
+        "ObjectName": "MaterialInstanceConstant'gmp_world_map_dvr_01_a'",
+        "ObjectPath": "Athena/Content/Materials/Props/Gameplay/gmp_world_map_dvr_01_a.0"
+      },
+      "TopMargin": 2300.0,
+      "LeftMargin": 2800.0,
+      "bNetUseOwnerRelevancy": true,
+      "RootComponent": {
+        "ObjectName": "StaticMeshComponent'Default__MapTable_C:TableMesh'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.80"
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ControlPoint_0_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MapTableControlPoint_C'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/BP_MapTableControlPoint.0"
+      },
+      "RelativeLocation": {
+        "X": 70.0,
+        "Y": 0.00018310547,
+        "Z": 12.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99963,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ControlPoint_1_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MapTableControlPoint_C'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/BP_MapTableControlPoint.0"
+      },
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": -0.00012874597,
+        "Z": 12.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": -179.99963,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ControlPoint_2_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MapTableControlPoint_C'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/BP_MapTableControlPoint.0"
+      },
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": 0.00012207031,
+        "Z": 12.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99963,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ControlPoint_3_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MapTableControlPoint_C'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/BP_MapTableControlPoint.0"
+      },
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": 7.6293945E-05,
+        "Z": 12.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99977,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ControlPoint_4_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MapTableControlPoint_C'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/BP_MapTableControlPoint.0"
+      },
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": 8.106233E-05,
+        "Z": 12.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99977,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 2.0
+      }
+    }
+  },
+  {
+    "Type": "ChildActorComponent",
+    "Name": "ControlPoint_5_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'ChildActorComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ChildActorClass": {
+        "ObjectName": "BlueprintGeneratedClass'BP_MapTableControlPoint_C'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/BP_MapTableControlPoint.0"
+      },
+      "RelativeLocation": {
+        "X": 80.0,
+        "Y": 7.6293945E-05,
+        "Z": 12.5
+      },
+      "RelativeRotation": {
+        "Pitch": 0.0,
+        "Yaw": 179.99977,
+        "Roll": -0.0
+      },
+      "RelativeScale3D": {
+        "X": 1.0,
+        "Y": 0.5,
+        "Z": 1.0
+      }
+    }
+  },
+  {
+    "Type": "HitRegSnapshotRedirectImpactToReplicatedMovementAttachParentComponent",
+    "Name": "HitRegSnapshotRedirectImpactToReplicatedMovementAttachParent_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'HitRegSnapshotRedirectImpactToReplicatedMovementAttachParentComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SceneComponent",
+    "Name": "DefaultSceneRoot_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'SceneComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted"
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_1",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "SceneComponent'MapTable_C:DefaultSceneRoot_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.66"
+      },
+      "VariableName": "DefaultSceneRoot",
+      "VariableGuid": "E2D44CE8-4A4EF0FA-9C5F2A91-8037CC19"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_10",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'MapTable_C:ControlPoint_5_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.64"
+      },
+      "VariableName": "ControlPoint_5",
+      "AttachToName": "CharacterPositionSocket_5",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "C755C227-450A09C8-E02A2FAA-7DDE718C"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_11",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "HitRegSnapshotRedirectImpactToReplicatedMovementAttachParentComponent'MapTable_C:HitRegSnapshotRedirectImpactToReplicatedMovementAttachParent_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.65"
+      },
+      "VariableName": "HitRegSnapshotRedirectImpactToReplicatedMovementAttachParent",
+      "VariableGuid": "EEB8B93C-484E0794-5D322794-589251A4"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_13",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": null,
+      "VariableName": "NavBlocker",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "1AB3C96B-46776064-645A50B8-1706BD13"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_2",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'MapTable_C:ControlPoint_3_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.62"
+      },
+      "VariableName": "ControlPoint_3",
+      "AttachToName": "CharacterPositionSocket_3",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "85DB6647-418B55C2-DF9F45AA-DF424466"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_3",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'MapTable_C:Cube_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.81"
+      },
+      "VariableName": "Cube",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "90DA2220-44B96873-A1CAD1A8-44E42BDA"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_4",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'MapTable_C:ControlPoint_0_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.59"
+      },
+      "VariableName": "ControlPoint_0",
+      "AttachToName": "CharacterPositionSocket_0",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "38A4CDEA-4B645A5D-3396D4B1-DC49D3D1"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_5",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "StaticMeshComponent'MapTable_C:Map_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.82"
+      },
+      "VariableName": "Map",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "133E5C54-42A47C86-176B6AB8-AAD051EE"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_6",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "TextureFeedbackComponent'MapTable_C:TextureFeedback_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.83"
+      },
+      "VariableName": "TextureFeedback",
+      "VariableGuid": "769C085F-4B971920-83F9E991-A54B006F"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_7",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'MapTable_C:ControlPoint_1_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.60"
+      },
+      "VariableName": "ControlPoint_1",
+      "AttachToName": "CharacterPositionSocket_1",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "0C90FAE5-45B97ECC-745B82B5-92182A91"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_8",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'MapTable_C:ControlPoint_2_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.61"
+      },
+      "VariableName": "ControlPoint_2",
+      "AttachToName": "CharacterPositionSocket_2",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "9E1C7518-4B846AD1-8F2D91AF-D4BCD0EB"
+    }
+  },
+  {
+    "Type": "SCS_Node",
+    "Name": "SCS_Node_9",
+    "Outer": "SimpleConstructionScript_1",
+    "Class": "UScriptClass'SCS_Node'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ComponentTemplate": {
+        "ObjectName": "ChildActorComponent'MapTable_C:ControlPoint_4_GEN_VARIABLE'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.63"
+      },
+      "VariableName": "ControlPoint_4",
+      "AttachToName": "CharacterPositionSocket_4",
+      "ParentComponentOrVariableName": "TableMesh",
+      "bIsParentComponentNative": true,
+      "VariableGuid": "D4BF8D6C-449336A6-FFC3A99F-E088A165"
+    }
+  },
+  {
+    "Type": "SimpleConstructionScript",
+    "Name": "SimpleConstructionScript_1",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'SimpleConstructionScript'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "RootNodes": [
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_5'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.74"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_3'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.72"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_6'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.75"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_4'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.73"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_7'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.76"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_8'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.77"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_2'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.71"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_9'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.78"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_10'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.68"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_13'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.70"
+        },
+        {
+          "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_11'",
+          "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.69"
+        }
+      ],
+      "DefaultSceneRootNode": {
+        "ObjectName": "SCS_Node'MapTable_C:SimpleConstructionScript_1.SCS_Node_1'",
+        "ObjectPath": "Athena/Content/Blueprints/GameObjects/MapTable/MapTable.67"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "TableMesh",
+    "Outer": "Default__MapTable_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_DefaultSubObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'shp_map_tab_01_a'",
+        "ObjectPath": "Athena/Content/Models/Ships/Common/shp_map_tab_01_a.2"
+      },
+      "BodyInstance": {
+        "CollisionProfileName": "ShipPlayerCollisionIgnoreVisibility",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "DefaultProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "HarpoonProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "CharacterTriggerVolume",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WaterDepth",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "ShipProjectileHitType",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "TriggerVolume",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Cube_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'CubeNotWalkable'",
+        "ObjectPath": "Athena/Content/Models/Ships/Common/Cannon/CubeNotWalkable.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "Material'BasicShapeMaterial'",
+          "ObjectPath": "Engine/Content/BasicShapes/BasicShapeMaterial.0"
+        }
+      ],
+      "CastShadow": false,
+      "BodyInstance": {
+        "CollisionProfileName": "MapTableInvisibleWall",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "WorldStatic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "WorldDynamic",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PhysicsBody",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Vehicle",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Destructible",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "DefaultProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "HarpoonProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PortableHarpoonProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "CharacterTriggerVolume",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "LiquidThrowable",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "LookAt",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerTeleport",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AudioAcousticTracing",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Throwable",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Nameplates",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "ShipProjectileHitType",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "CharacterCollision",
+              "Response": "ECR_Block"
+            },
+            {
+              "Channel": "TriggerVolume",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AIBlockingHits",
+              "Response": "ECR_Block"
+            }
+          ]
+        },
+        "MassInKg": 1499.7003,
+        "CollisionEnabled": "ECollisionEnabled::QueryOnly"
+      },
+      "CanCharacterStepUpOn": "ECB_No",
+      "bVisible": false,
+      "RelativeLocation": {
+        "X": 0.0,
+        "Y": 0.0,
+        "Z": 100.0
+      },
+      "RelativeScale3D": {
+        "X": 1.968193,
+        "Y": 4.020894,
+        "Z": 2.5
+      }
+    }
+  },
+  {
+    "Type": "StaticMeshComponent",
+    "Name": "Map_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'StaticMeshComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "StaticMesh": {
+        "ObjectName": "StaticMesh'gmp_world_map_01_a'",
+        "ObjectPath": "Athena/Content/Models/Props/Gameplay/gmp_world_map_01_a.2"
+      },
+      "OverrideMaterials": [
+        {
+          "ObjectName": "MaterialInstanceConstant'gmp_world_map_dvr_01_a'",
+          "ObjectPath": "Athena/Content/Materials/Props/Gameplay/gmp_world_map_dvr_01_a.0"
+        }
+      ],
+      "bReceivesDecals": false,
+      "BodyInstance": {
+        "CollisionProfileName": "NoCollision",
+        "CollisionResponses": {
+          "ResponseArray": [
+            {
+              "Channel": "Visibility",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Camera",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PortableHarpoonProjectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Projectile",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "LookAt",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "PlayerTeleport",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "AudioAcousticTracing",
+              "Response": "ECR_Ignore"
+            },
+            {
+              "Channel": "Nameplates",
+              "Response": "ECR_Ignore"
+            }
+          ]
+        },
+        "bAutoWeld": false,
+        "MassInKg": 0.0,
+        "CollisionEnabled": "ECollisionEnabled::NoCollision",
+        "ObjectType": "ECC_WorldStatic"
+      }
+    }
+  },
+  {
+    "Type": "TextureFeedbackComponent",
+    "Name": "TextureFeedback_GEN_VARIABLE",
+    "Outer": "MapTable_C",
+    "Class": "UScriptClass'TextureFeedbackComponent'",
+    "Flags": "RF_Public | RF_Transactional | RF_ArchetypeObject | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "InputTexture2": {
+        "ObjectName": "Texture2D'gmp_world_map_flow_ma'",
+        "ObjectPath": "Athena/Content/Textures/Props/Gameplay/gmp_world_map_flow_ma.0"
+      },
+      "InputData": {
+        "X": 0.02,
+        "Y": 0.01,
+        "Z": 2.0,
+        "W": 0.0002
+      }
+    }
+  }
+]
