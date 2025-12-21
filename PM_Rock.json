@@ -1,0 +1,11 @@
+[
+  {
+    "Type": "PhysicalMaterial",
+    "Name": "PM_Rock",
+    "Class": "UScriptClass'PhysicalMaterial'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted | RF_Dynamic",
+    "Properties": {
+      "SurfaceType": "SurfaceType2"
+    }
+  }
+]
