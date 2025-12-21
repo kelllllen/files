@@ -1,0 +1,2266 @@
+[
+  {
+    "Type": "Material",
+    "Name": "MT_rock_modular",
+    "Class": "UScriptClass'Material'",
+    "Flags": "RF_Public | RF_Standalone | RF_Transactional | RF_WasLoaded | RF_LoadCompleted | RF_Dynamic",
+    "Properties": {
+      "PhysMaterial": {
+        "ObjectName": "PhysicalMaterial'PM_Rock'",
+        "ObjectPath": "Athena/Content/Materials/Physical/PM_Rock.0"
+      },
+      "BaseColor": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.18"
+        }
+      },
+      "Metallic": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        "OutputIndex": 1,
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Specular": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        "OutputIndex": 2,
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Roughness": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.15"
+        }
+      },
+      "Normal": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        "OutputIndex": 7,
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "OpacityMask": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.17"
+        },
+        "OutputIndex": 2
+      },
+      "WorldPositionOffset": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        "OutputIndex": 8,
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "AmbientOcclusion": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        "OutputIndex": 14,
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "CustomizedUVs[2]": {
+        "OutputIndex": 2
+      },
+      "MaterialAttributes": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitch'MT_rock_modular:MaterialExpressionStaticSwitch_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.36"
+        }
+      },
+      "bUsedWithSkeletalMesh": true,
+      "bUsedWithGPUInstanceCulling": true,
+      "bUsedWithSplineMeshes": true,
+      "bUsedWithInstancedStaticMeshes": true,
+      "bAutomaticallySetUsageInEditor": false,
+      "EditorX": 1472,
+      "EditorY": 464,
+      "Expressions": [
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.18"
+        },
+        {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.15"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.17"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticSwitch'MT_rock_modular:MaterialExpressionStaticSwitch_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.36"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_rock_modular:MaterialExpressionStaticSwitchParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.37"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_17'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.12"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_rock_modular:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.43"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.10"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.23"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.24"
+        },
+        {
+          "ObjectName": "MaterialExpressionVectorParameter'MT_rock_modular:MaterialExpressionVectorParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.45"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.19"
+        },
+        {
+          "ObjectName": "MaterialExpressionTransform'MT_rock_modular:MaterialExpressionTransform_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.44"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant3Vector'MT_rock_modular:MaterialExpressionConstant3Vector_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.5"
+        },
+        {
+          "ObjectName": "MaterialExpressionDotProduct'MT_rock_modular:MaterialExpressionDotProduct_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.8"
+        },
+        {
+          "ObjectName": "MaterialExpressionClamp'MT_rock_modular:MaterialExpressionClamp_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.2"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.29"
+        },
+        {
+          "ObjectName": "MaterialExpressionPower'MT_rock_modular:MaterialExpressionPower_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.22"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.30"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.14"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticBoolParameter'MT_rock_modular:MaterialExpressionStaticBoolParameter_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.35"
+        },
+        {
+          "ObjectName": "MaterialExpressionStaticBoolParameter'MT_rock_modular:MaterialExpressionStaticBoolParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.34"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.31"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_13'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.25"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_14'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.26"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_17'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.27"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.42"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.39"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.38"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_6'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.40"
+        },
+        {
+          "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.41"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_7'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.32"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.13"
+        },
+        {
+          "ObjectName": "MaterialExpressionCustom'MT_rock_modular:MaterialExpressionCustom_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.7"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_rock_modular:MaterialExpressionMultiply_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.21"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_8'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.33"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_rock_modular:MaterialExpressionConstant_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.4"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.16"
+        },
+        {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.11"
+        },
+        {
+          "ObjectName": "MaterialExpressionLinearInterpolate'MT_rock_modular:MaterialExpressionLinearInterpolate_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.9"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant3Vector'MT_rock_modular:MaterialExpressionConstant3Vector_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.6"
+        },
+        {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.28"
+        },
+        {
+          "ObjectName": "MaterialExpressionConstant'MT_rock_modular:MaterialExpressionConstant_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.3"
+        },
+        {
+          "ObjectName": "MaterialExpressionMultiply'MT_rock_modular:MaterialExpressionMultiply_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.20"
+        }
+      ],
+      "MaterialFunctionInfos": [
+        {
+          "StateId": "99B16E35-4A8DA2D0-B26980B6-FAEAF407",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_DistanceFade'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_DistanceFade.21"
+          }
+        },
+        {
+          "StateId": "162D6D2B-48CD8C45-6AA56F8E-93FB317B",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.7"
+          }
+        },
+        {
+          "StateId": "CFD0B809-4C8E491B-9F5572A8-4BC5D17D",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_MapGenBranch'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_MapGenBranch.7"
+          }
+        },
+        {
+          "StateId": "F4FE96B4-4CC59531-C39CF19D-6648BF26",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_PortalClip'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_PortalClip.56"
+          }
+        },
+        {
+          "StateId": "A66EC7E7-4731C12B-E1BB15B8-667CA2D8",
+          "Function": {
+            "ObjectName": "MaterialFunction'MatLayerBlend_BakedNormal'",
+            "ObjectPath": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.7"
+          }
+        },
+        {
+          "StateId": "66F45EB5-4557E1DE-AA50C7B3-CAA415AC",
+          "Function": {
+            "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.18"
+          }
+        },
+        {
+          "StateId": "3DD81275-4606B746-72B0CF85-7C999136",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_grass'",
+            "ObjectPath": "Athena/Content/Materials/Templates/Terrain/Layers/MTF_grass.28"
+          }
+        },
+        {
+          "StateId": "CFD0B809-4C8E491B-9F5572A8-4BC5D17D",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_MapGenBranch'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_MapGenBranch.7"
+          }
+        },
+        {
+          "StateId": "DB36C335-4A447332-7A1B8C99-F1A4393F",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_terrain_blend_mask'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_terrain_blend_mask.8"
+          }
+        },
+        {
+          "StateId": "164749E6-40CAF1CF-634257A6-B74ADB40",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_rockmesh'",
+            "ObjectPath": "Athena/Content/Materials/Templates/Terrain/Layers/MTF_rockmesh.118"
+          }
+        },
+        {
+          "StateId": "162D6D2B-48CD8C45-6AA56F8E-93FB317B",
+          "Function": {
+            "ObjectName": "MaterialFunction'VectorLength'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.7"
+          }
+        },
+        {
+          "StateId": "13A0C125-422B86A3-31F629BF-B3998EF1",
+          "Function": {
+            "ObjectName": "MaterialFunction'ObjectScale'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.15"
+          }
+        },
+        {
+          "StateId": "C9BCF9F5-45BDB480-39A59EB6-B8A33FAE",
+          "Function": {
+            "ObjectName": "MaterialFunction'RotateVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Vectors/RotateVector.14"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.6"
+          }
+        },
+        {
+          "StateId": "3FA44BF2-462D624C-FA222987-6FE1F968",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.12"
+          }
+        },
+        {
+          "StateId": "A51E0969-4B5D54D5-6D9D7CA2-31FADCD9",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldAlignedTexture'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/WorldAlignedTexture.38"
+          }
+        },
+        {
+          "StateId": "FE67B48A-44296B30-FBF15EBB-0FC10ADF",
+          "Function": {
+            "ObjectName": "MaterialFunction'FlattenNormal'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Texturing/FlattenNormal.5"
+          }
+        },
+        {
+          "StateId": "CAA34A9F-4DF141F6-D75401AA-74CE51A5",
+          "Function": {
+            "ObjectName": "MaterialFunction'Blend_Overlay'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions03/Blends/Blend_Overlay.29"
+          }
+        },
+        {
+          "StateId": "66F45EB5-4557E1DE-AA50C7B3-CAA415AC",
+          "Function": {
+            "ObjectName": "MaterialFunction'BlendAngleCorrectedNormals'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.18"
+          }
+        },
+        {
+          "StateId": "5B938C50-440B6892-955AD79F-CD1A8337",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat3Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.7"
+          }
+        },
+        {
+          "StateId": "C330DE33-4A86FAB2-7255B1AC-3A6AC1B4",
+          "Function": {
+            "ObjectName": "MaterialFunction'Transform3x3Matrix'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/Transform3x3Matrix.13"
+          }
+        },
+        {
+          "StateId": "24C4DE77-4897BB7D-851060AA-7625A218",
+          "Function": {
+            "ObjectName": "MaterialFunction'CreateThirdOrthogonalVector'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Math/CreateThirdOrthogonalVector.11"
+          }
+        },
+        {
+          "StateId": "E6A85460-4E707DD6-EBF457B4-A3E80A43",
+          "Function": {
+            "ObjectName": "MaterialFunction'MakeFloat3'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.6"
+          }
+        },
+        {
+          "StateId": "2C1DDB6E-406BC9FC-1D4141A1-7C82122A",
+          "Function": {
+            "ObjectName": "MaterialFunction'BreakOutFloat2Components'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.5"
+          }
+        },
+        {
+          "StateId": "626151C6-4CD5123F-FCEF24B3-68C5867A",
+          "Function": {
+            "ObjectName": "MaterialFunction'WorldAlignedNormals_HighQuality'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/WorldAlignedNormals_HighQuality.76"
+          }
+        },
+        {
+          "StateId": "27619BE0-49C44856-38A31091-2FA95EE9",
+          "Function": {
+            "ObjectName": "MaterialFunction'MatLayerBlend_Standard'",
+            "ObjectPath": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.22"
+          }
+        },
+        {
+          "StateId": "3FA44BF2-462D624C-FA222987-6FE1F968",
+          "Function": {
+            "ObjectName": "MaterialFunction'CheapContrast'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.12"
+          }
+        },
+        {
+          "StateId": "B7C71B91-4E2BB667-772D6CBE-2AB55665",
+          "Function": {
+            "ObjectName": "MaterialFunction'LinearGradient'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/LinearGradient.6"
+          }
+        },
+        {
+          "StateId": "4465A54A-4928F82C-3BC7EC82-C977B75B",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_DitherFadeOnDistance'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_DitherFadeOnDistance.3"
+          }
+        },
+        {
+          "StateId": "CFD0B809-4C8E491B-9F5572A8-4BC5D17D",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_MapGenBranch'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_MapGenBranch.7"
+          }
+        },
+        {
+          "StateId": "2B56DB80-4F48246A-212DB9A2-2383A57A",
+          "Function": {
+            "ObjectName": "MaterialFunction'ScreenAlignedPixelToPixelUVs'",
+            "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/ScreenAlignedPixelToPixelUVs.7"
+          }
+        },
+        {
+          "StateId": "EB3F66DA-4BF9D4B7-7D164691-F71EC0CD",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_DitherTransparency'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_DitherTransparency.10"
+          }
+        },
+        {
+          "StateId": "CFD0B809-4C8E491B-9F5572A8-4BC5D17D",
+          "Function": {
+            "ObjectName": "MaterialFunction'MTF_MapGenBranch'",
+            "ObjectPath": "Athena/Content/Materials/Functions/MTF_MapGenBranch.7"
+          }
+        }
+      ],
+      "MaterialParameterCollectionInfos": [
+        {
+          "StateId": "1BB86A0A-48D74886-80A3D490-660FD35C",
+          "ParameterCollection": {
+            "ObjectName": "MaterialParameterCollection'MP_atmospheric_parameters'",
+            "ObjectPath": "Athena/Content/Materials/ParameterCollections/MP_atmospheric_parameters.0"
+          }
+        }
+      ],
+      "StateId": "32EE96F4-4EB617C6-52A9C4AD-341EA59E"
+    },
+    "LoadedMaterialResources": []
+  },
+  {
+    "Type": "MaterialExpressionBreakMaterialAttributes",
+    "Name": "MaterialExpressionBreakMaterialAttributes_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionBreakMaterialAttributes'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialAttributes": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticSwitch'MT_rock_modular:MaterialExpressionStaticSwitch_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.36"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionClamp",
+    "Name": "MaterialExpressionClamp_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionClamp'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionDotProduct'MT_rock_modular:MaterialExpressionDotProduct_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.8"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant",
+    "Name": "MaterialExpressionConstant_3",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionConstant'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "R": 1.0,
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant3Vector",
+    "Name": "MaterialExpressionConstant3Vector_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionConstant3Vector'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Constant": {
+        "R": 0.0,
+        "G": 0.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "0000FF"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionConstant3Vector",
+    "Name": "MaterialExpressionConstant3Vector_1",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionConstant3Vector'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Constant": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 0.0,
+        "Hex": "FFFFFF"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionCustom",
+    "Name": "MaterialExpressionCustom_2",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionCustom'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Code": "smoothstep(0, 1-threshold, x);",
+      "Description": "smoothStep",
+      "Inputs": [
+        {
+          "InputName": "threshold",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_2'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.13"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "InputName": "x",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.10"
+            },
+            "OutputIndex": 0,
+            "InputName": "",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionDotProduct",
+    "Name": "MaterialExpressionDotProduct_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionDotProduct'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTransform'MT_rock_modular:MaterialExpressionTransform_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.44"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstant3Vector'MT_rock_modular:MaterialExpressionConstant3Vector_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.5"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionLinearInterpolate",
+    "Name": "MaterialExpressionLinearInterpolate_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionLinearInterpolate'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstant3Vector'MT_rock_modular:MaterialExpressionConstant3Vector_1'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.6"
+        }
+      },
+      "Alpha": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.28"
+        }
+      },
+      "ConstAlpha": 0.1,
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_grass'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/Layers/MTF_grass.28"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "3A0E3EA9-41525CEC-82896888-13E8EA97",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.23"
+            },
+            "OutputIndex": 0,
+            "InputName": "Roughness Scale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "B09E2338-40875153-3500749C-1D5B343E",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_1'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.24"
+            },
+            "OutputIndex": 0,
+            "InputName": "Roughness Bias",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "C39F20F8-4826F630-208FC6A1-97171985",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionVectorParameter'MT_rock_modular:MaterialExpressionVectorParameter_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.45"
+            },
+            "OutputIndex": 0,
+            "InputName": "Tint",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "3F2DBED2-4D903817-351D2589-434448E9",
+          "Output": {
+            "OutputName": "height",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "51757DE6-46A34390-FFFA4D9A-D15014EF",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "height",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_1",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_MapGenBranch'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_MapGenBranch.7"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "8D66BBFD-4A971039-6819D8B3-DD941C4A",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+            },
+            "OutputIndex": 0,
+            "InputName": "Default",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "E1CDB6C4-4A842130-DD221F87-E9F1633F",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionLinearInterpolate'MT_rock_modular:MaterialExpressionLinearInterpolate_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.9"
+            },
+            "OutputIndex": 0,
+            "InputName": "Capture Override",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "4AADCEEC-460EACC4-3650D99D-99AF9D2A",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_17",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MatLayerBlend_BakedNormal'",
+        "ObjectPath": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_BakedNormal.7"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "B6A66478-423F339D-D914999E-5208A17C",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_9'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.19"
+            },
+            "OutputIndex": 1,
+            "InputName": "Material",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "F9FEFA68-4000E314-746C9A8D-4E3ECE8D",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_rock_modular:MaterialExpressionTextureSampleParameter2D_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.43"
+            },
+            "OutputIndex": 0,
+            "InputName": "Normal",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "2B75887C-4FC1F116-25A6F7A1-F0176058",
+          "Output": {
+            "OutputName": "Blended Material",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Blended Material",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_2",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'CheapContrast'",
+        "ObjectPath": "Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/CheapContrast.12"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "95C9DA0E-48D34168-E34AD3A6-07BAA34E",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionPower'MT_rock_modular:MaterialExpressionPower_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.22"
+            },
+            "OutputIndex": 0,
+            "InputName": "In",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "3C3E177E-485D8FFF-C35D1482-F0A20020",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_5'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.30"
+            },
+            "OutputIndex": 0,
+            "InputName": "Contrast",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "5067ED8C-4A2EFE82-DB33F99E-BE37E80E",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_3",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MatLayerBlend_Standard'",
+        "ObjectPath": "Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Standard.22"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "EFA63D0B-46EF0328-37E8199E-5B36B3E0",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_17'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.12"
+            },
+            "OutputIndex": 0,
+            "InputName": "Base Material",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "35B675B8-4041AED2-7688219B-85171135",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.10"
+            },
+            "OutputIndex": 1,
+            "InputName": "Top Material",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "58AB44C6-4FD9086F-C6AAB1B0-42B32C2E",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMultiply'MT_rock_modular:MaterialExpressionMultiply_2'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.21"
+            },
+            "OutputIndex": 0,
+            "InputName": "Alpha",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "B7A48B68-455CD8D9-A45B3AAF-57C5E97C",
+          "Output": {
+            "OutputName": "Blended Material",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Blended Material",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_4",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_MapGenBranch'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_MapGenBranch.7"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "8D66BBFD-4A971039-6819D8B3-DD941C4A",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionBreakMaterialAttributes'MT_rock_modular:MaterialExpressionBreakMaterialAttributes_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.1"
+            },
+            "OutputIndex": 3,
+            "InputName": "Default",
+            "Mask": 1,
+            "MaskR": 1,
+            "MaskG": 1,
+            "MaskB": 1,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "E1CDB6C4-4A842130-DD221F87-E9F1633F",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionConstant'MT_rock_modular:MaterialExpressionConstant_0'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.3"
+            },
+            "OutputIndex": 0,
+            "InputName": "Capture Override",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "4AADCEEC-460EACC4-3650D99D-99AF9D2A",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_5",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_DitherFadeOnDistance'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_DitherFadeOnDistance.3"
+      },
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "B23CC2C0-4965DF2D-2C9E3187-167F35D2",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_6",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_PortalClip'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_PortalClip.56"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "13D7D949-40A3CF6D-805A7597-F4ABEB72",
+          "Input": {
+            "Expression": null,
+            "OutputIndex": -1,
+            "InputName": "InEmissive",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "236F2FB7-47AA12F7-0F2AC4A3-E4B308D1",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionStaticSwitchParameter'MT_rock_modular:MaterialExpressionStaticSwitchParameter_4'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.37"
+            },
+            "OutputIndex": 0,
+            "InputName": "InOpacity",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "08F38CF3-44CE1CDF-F8D37D88-33002B3F",
+          "Output": {
+            "OutputName": "OutUV",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "3722A037-4CAAD040-87E1BDA3-295BC1B2",
+          "Output": {
+            "OutputName": "Emissive",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "569E4DD7-4BCF4534-023305BE-F176BD2E",
+          "Output": {
+            "OutputName": "OutOpacity",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "OutUV",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Emissive",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "OutOpacity",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_8",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_DistanceFade'",
+        "ObjectPath": "Athena/Content/Materials/Functions/MTF_DistanceFade.21"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "6189311E-495E763E-C284489C-777B1B60",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_1'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.11"
+            },
+            "OutputIndex": 0,
+            "InputName": "BaseColour",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "90398CE5-4919C33C-2AF7E39A-D7C67310",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMaterialFunctionCall",
+    "Name": "MaterialExpressionMaterialFunctionCall_9",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMaterialFunctionCall'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "MaterialFunction": {
+        "ObjectName": "MaterialFunction'MTF_rockmesh'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/Layers/MTF_rockmesh.118"
+      },
+      "FunctionInputs": [
+        {
+          "ExpressionInputId": "4774EB2F-4876563D-D1D98589-05970188",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_8'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.33"
+            },
+            "OutputIndex": 0,
+            "InputName": "EdgeMaskBrightness",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "41C73864-45C0F1C6-D19AB49D-BC2A2A99",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_7'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.41"
+            },
+            "OutputIndex": 0,
+            "InputName": "Edge_Mask",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "E71969FF-4BB5958C-4E6AFE88-B1948595",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_17'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.27"
+            },
+            "OutputIndex": 0,
+            "InputName": "DIffuse_Scale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "291C876D-4188240B-5E792196-C82DF9B1",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_2'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.38"
+            },
+            "OutputIndex": 0,
+            "InputName": "Diffuse/Roughtness",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "821D267D-4966F51F-5A2DABAF-7BA43D2B",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_7'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.32"
+            },
+            "OutputIndex": 0,
+            "InputName": "Diffuse_World_Scale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "5F0D2E46-4933DF46-04FDCF86-B232203B",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_6'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.31"
+            },
+            "OutputIndex": 0,
+            "InputName": "ColourMap_Position",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "67AF221A-43289943-BD4BBEB5-313CB9F1",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_6'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.40"
+            },
+            "OutputIndex": 0,
+            "InputName": "World_Colour",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "6E149F4F-42BBA7DD-8066B58C-04FC170D",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionStaticBoolParameter'MT_rock_modular:MaterialExpressionStaticBoolParameter_3'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.35"
+            },
+            "OutputIndex": 0,
+            "InputName": "Use Global_Colour_Map",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "726F641F-4781FEF8-4313AA8C-AEF22A32",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_14'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.26"
+            },
+            "OutputIndex": 0,
+            "InputName": "Normal_01_Scale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "153F08D2-478FD0CE-2FDC4393-A8C1522A",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_5'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.39"
+            },
+            "OutputIndex": 0,
+            "InputName": "Normal_01",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "020D8A8B-42B01A96-303EB4AC-7FCB0D91",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_13'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.25"
+            },
+            "OutputIndex": 0,
+            "InputName": "Normal_02_Scale",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        },
+        {
+          "ExpressionInputId": "9FDB6B06-43F6BF32-1F5BC2A0-329B3E6E",
+          "Input": {
+            "Expression": {
+              "ObjectName": "MaterialExpressionTextureObjectParameter'MT_rock_modular:MaterialExpressionTextureObjectParameter_9'",
+              "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.42"
+            },
+            "OutputIndex": 0,
+            "InputName": "Normal_02",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0,
+            "GCC64_Padding": 0
+          }
+        }
+      ],
+      "FunctionOutputs": [
+        {
+          "ExpressionOutputId": "00DF6951-451EA524-3D6CD385-D95FFD19",
+          "Output": {
+            "OutputName": "WetHeightMask",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        },
+        {
+          "ExpressionOutputId": "F7994888-49D40CD8-45C50E98-36BD13C7",
+          "Output": {
+            "OutputName": "Result",
+            "Mask": 0,
+            "MaskR": 0,
+            "MaskG": 0,
+            "MaskB": 0,
+            "MaskA": 0
+          }
+        }
+      ],
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "Outputs": [
+        {
+          "OutputName": "WetHeightMask",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        },
+        {
+          "OutputName": "Result",
+          "Mask": 0,
+          "MaskR": 0,
+          "MaskG": 0,
+          "MaskB": 0,
+          "MaskA": 0
+        }
+      ]
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_9'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.19"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionClamp'MT_rock_modular:MaterialExpressionClamp_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.2"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionMultiply",
+    "Name": "MaterialExpressionMultiply_2",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionMultiply'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionPower'MT_rock_modular:MaterialExpressionPower_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.22"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionCustom'MT_rock_modular:MaterialExpressionCustom_2'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.7"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionPower",
+    "Name": "MaterialExpressionPower_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionPower'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Base": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMultiply'MT_rock_modular:MaterialExpressionMultiply_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.20"
+        }
+      },
+      "Exponent": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionScalarParameter'MT_rock_modular:MaterialExpressionScalarParameter_4'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.29"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Grass_Roughness_Scale",
+      "ExpressionGUID": "5B425B0C-41F43E2F-8E96598A-0EE89BF4",
+      "Group": "Grass",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_1",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 1.0,
+      "ParameterName": "Grass_Roughness_Bias",
+      "ExpressionGUID": "23DC807A-4E8965C5-283C9AB2-5639321E",
+      "Group": "Grass",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_13",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 5.1,
+      "ParameterName": "Normal_02_Scale",
+      "ExpressionGUID": "4B8E55A6-470197CC-9BCED2AA-7B5A3F34",
+      "Group": "Normals",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_14",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 3.0,
+      "ParameterName": "Normal_01_Scale",
+      "ExpressionGUID": "1AB71E84-4F0D44C0-FFC32CB2-33EC9B64",
+      "Group": "Normals",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_17",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 1.2,
+      "ParameterName": "Diffuse_Scale",
+      "ExpressionGUID": "1E23F5C4-45D38CAF-AEBE289F-05B3FDD5",
+      "Group": "Diffuse/Roughness",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_2",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 0.1,
+      "ParameterName": "Rock Whiteness Factor",
+      "ExpressionGUID": "FE5DE64F-417E8909-CEFF5EB8-8FD72AD6",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_4",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 3.0,
+      "ParameterName": "Grass_FallOff",
+      "ExpressionGUID": "0FBD8133-488DACA9-03DA44BB-DB1012AB",
+      "Group": "Grass",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_5",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 6.0,
+      "ParameterName": "Grass_Sharpness",
+      "ExpressionGUID": "9DAEF46A-4580E627-A45B7B9B-77C5DDBC",
+      "Group": "Grass",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_6",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 500.0,
+      "ParameterName": "ColourMap_PositionOffset",
+      "ExpressionGUID": "C35CE3E0-42D86203-4A3A0185-0A535A21",
+      "Group": "Diffuse/Roughness",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_7",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 1024.0,
+      "ParameterName": "Diffuse_World_Scale",
+      "ExpressionGUID": "E806532D-437BFC69-78713794-6521C049",
+      "Group": "Diffuse/Roughness",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionScalarParameter",
+    "Name": "MaterialExpressionScalarParameter_8",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionScalarParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": 5.0,
+      "ParameterName": "EdgeMask_Brightness",
+      "ExpressionGUID": "BC839CBA-4619D6D3-08992FAB-1818576E",
+      "Group": "Diffuse/Roughness",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticBoolParameter",
+    "Name": "MaterialExpressionStaticBoolParameter_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionStaticBoolParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": true,
+      "ParameterName": "Enable_Grass",
+      "ExpressionGUID": "8C729C76-4A142E40-DB02E5B1-3865B207",
+      "Group": "Diffuse/Roughness",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticBoolParameter",
+    "Name": "MaterialExpressionStaticBoolParameter_3",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionStaticBoolParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": true,
+      "ParameterName": "Use_WorldPosition_ColourMap",
+      "ExpressionGUID": "E680A870-452C887C-07AB218D-D98F680E",
+      "Group": "Diffuse/Roughness",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticSwitch",
+    "Name": "MaterialExpressionStaticSwitch_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionStaticSwitch'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.14"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_17'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.12"
+        }
+      },
+      "Value": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionStaticBoolParameter'MT_rock_modular:MaterialExpressionStaticBoolParameter_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.34"
+        }
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionStaticSwitchParameter",
+    "Name": "MaterialExpressionStaticSwitchParameter_4",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionStaticSwitchParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "A": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionMaterialFunctionCall'MT_rock_modular:MaterialExpressionMaterialFunctionCall_5'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.16"
+        }
+      },
+      "B": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionConstant'MT_rock_modular:MaterialExpressionConstant_3'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.4"
+        }
+      },
+      "ParameterName": "UseDitheredFade",
+      "ExpressionGUID": "A4632DB5-47E2F54E-2C1070A0-23AC5A32",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_2",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Diffuse/Roughness",
+      "ExpressionGUID": "4F34FC89-459474C1-898A9B95-95323B8C",
+      "Group": "Diffuse/Roughness",
+      "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+      "Texture": {
+        "ObjectName": "Texture2D'cmn_rock_base_c_ma'",
+        "ObjectPath": "Athena/Content/Textures/Environments/Common/cmn_rock_base_c_ma.0"
+      },
+      "SamplerType": "SAMPLERTYPE_LinearColor",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_5",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Normal_01",
+      "ExpressionGUID": "158385F7-46B64E6B-ABCBEC88-5457FAA3",
+      "Group": "Normals",
+      "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+      "Texture": {
+        "ObjectName": "Texture2D'default_no'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_no.0"
+      },
+      "SamplerType": "SAMPLERTYPE_Normal",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_6",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "World_Colour",
+      "ExpressionGUID": "2866716B-4EC6C4E6-E41B44A5-3DA6A2D3",
+      "Group": "Diffuse/Roughness",
+      "Texture": {
+        "ObjectName": "Texture2D'default_di'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_di.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_7",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Edge_Mask",
+      "ExpressionGUID": "C70AA012-4BCB69A8-C282BFA0-46DA95E9",
+      "Group": "Diffuse/Roughness",
+      "Texture": {
+        "ObjectName": "Texture2D'default_black_di'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_black_di.0"
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureObjectParameter",
+    "Name": "MaterialExpressionTextureObjectParameter_9",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTextureObjectParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Normal_02",
+      "ExpressionGUID": "65736040-464A3A77-2A06488A-364BFD16",
+      "Group": "Normals",
+      "SamplerSource": "SSM_Wrap_WorldGroupSettings",
+      "Texture": {
+        "ObjectName": "Texture2D'default_no'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_no.0"
+      },
+      "SamplerType": "SAMPLERTYPE_Normal",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  },
+  {
+    "Type": "MaterialExpressionTextureSampleParameter2D",
+    "Name": "MaterialExpressionTextureSampleParameter2D_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTextureSampleParameter2D'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "ParameterName": "Baked_Normal",
+      "ExpressionGUID": "FEA5EE0C-4F568BCC-A332CE89-DE7F4D7B",
+      "Group": "Normals",
+      "Texture": {
+        "ObjectName": "Texture2D'default_no'",
+        "ObjectPath": "Athena/Content/Textures/Default/default_no.0"
+      },
+      "SamplerType": "SAMPLERTYPE_Normal",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionTransform",
+    "Name": "MaterialExpressionTransform_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionTransform'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "Input": {
+        "Expression": {
+          "ObjectName": "MaterialExpressionTextureSampleParameter2D'MT_rock_modular:MaterialExpressionTextureSampleParameter2D_0'",
+          "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.43"
+        },
+        "Mask": 1,
+        "MaskR": 1,
+        "MaskG": 1,
+        "MaskB": 1
+      },
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      }
+    }
+  },
+  {
+    "Type": "MaterialExpressionVectorParameter",
+    "Name": "MaterialExpressionVectorParameter_0",
+    "Outer": "MT_rock_modular",
+    "Class": "UScriptClass'MaterialExpressionVectorParameter'",
+    "Flags": "RF_Transactional | RF_WasLoaded | RF_LoadCompleted",
+    "Properties": {
+      "DefaultValue": {
+        "R": 1.0,
+        "G": 1.0,
+        "B": 1.0,
+        "A": 1.0,
+        "Hex": "FFFFFF"
+      },
+      "ParameterName": "Grass_Tint",
+      "ExpressionGUID": "910111D0-4656DA70-A2569494-A224D3D3",
+      "Group": "Grass",
+      "Material": {
+        "ObjectName": "Material'MT_rock_modular'",
+        "ObjectPath": "Athena/Content/Materials/Templates/Terrain/MT_Rock_modular.0"
+      },
+      "bCollapsed": true
+    }
+  }
+]
